@@ -12,7 +12,7 @@
 .wpostimg {width: 100%; height: fit-content; overflow:hidden; position:relative; display:grid;justify-items: center;align-items: center;}
 .wpostimg img {width:100%; object-fit: cover; position: relative;}
 .wpostimg wtag {position:absolute;}
-.ert {width: 100%; min-height: 55px; padding: 0 20px; margin-bottom: 20px; display:flex; gap: 14px;}
+.ert {width: 100%; min-height: 55px; padding: 20px; display:flex; gap: 14px;}
 .wwpost .smsbut po, .wwchat .smsbut po {opacity: 0.3; transition: all .5s ease;}
 .wwpost .smsbut po:hover, .wwchat .smsbut po:hover {opacity:1; transition: all .5s ease;}
 .wwpost po a, .wwchat po a {color: var(--forum) !important;}

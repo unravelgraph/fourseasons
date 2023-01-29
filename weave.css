@@ -2,12 +2,13 @@
 .smsavatar {width:55px;height:55px; background: var(--fond5);border: 1px solid var(--borderw);border-radius:var(--rad); }
 .smsavatar img{width:55px;height:55px;border-radius:var(--rad);object-fit: cover;padding: 6px; width: 54px; height: 54px;opacity:0.8;}
 
+.smscont:before {display:none!important;}
 .wwpost {width: 678px; margin-left: 15px;}
 .wwpost .smsonline, .wwpost .smsleft, .wwpost .threep, .wwpost .composter, .wwchat .smsonline, .wwchat .smsleft, .wwchat .threep, .wwchat .composter, .wwchat .smsalert, .wwpost .smsalert {display: none;}
 .wwpost .forweave, .wwchat .forweave {width: auto;margin-left: 0;}
 .wwpost .smsgrid, .wwchat .smsgrid {display: block; margin-left: 0;width: auto;}
 .wuser, wtag, .lkf {font-family: var(--font3);font-size: 12px;text-transform: uppercase; font-weight: bold;}
-.wwpost .smscont, .wwchat .smscont {width: 660px;max-height: fit-content;border: none;background: transparent; padding: 0;margin: 0;}
+.wwpost .smscont, .wwchat .smscont {width: 660px;border: none;background: transparent; padding: 0;margin: 0; border-radius: 0!important;}
 .wpostimg {width: 100%; height: fit-content; overflow:hidden; position:relative; display:grid;justify-items: center;align-items: center;}
 .wpostimg img {width:100%; object-fit: cover; position: relative;}
 .wpostimg wtag {position:absolute;}
@@ -15,14 +16,14 @@
 .wwpost .smsbut po, .wwchat .smsbut po {opacity: 0.3; transition: all .5s ease;}
 .wwpost .smsbut po:hover, .wwchat .smsbut po:hover {opacity:1; transition: all .5s ease;}
 .wwpost po a, .wwchat po a {color: var(--forum) !important;}
-.weavepost {background: var(--forum);border: 1px solid var(--borderw);border-bottom-left-radius: var(--rad2);border-bottom-right-radius: var(--rad2); overflow:hidden;}
-.wwpost .wtime, .wwchat .wtime {background: var(--forum); margin-bottom: -18px; padding: 5px 0;border-top-left-radius: var(--rad2); border-top-right-radius: var(--rad2);}
+.weavepost {background: var(--forum);border-bottom-left-radius: var(--rad2);border-bottom-right-radius: var(--rad2); overflow:hidden;}
+.wwpost .wtime, .wwchat .wtime {background: var(--forum); padding: 5px 0;border-top-left-radius: var(--rad2); border-top-right-radius: var(--rad2);}
 .ert a, .ert wtag, .wuser {background:var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent!important;}
 .wwpost .smsread, .wwchat .smsread {background: var(--fond7);}
 
 .wwchat {width: 660px;}
 .wwchat .smscont {max-height: 75px; overflow: hidden;}
-.chatinvite {height: 60px;display: flex;gap: 4px;align-items: center;justify-content: center; background: var(--forum);border: 1px solid var(--borderw);border-bottom-left-radius: var(--rad2);border-bottom-right-radius: var(--rad2);}
+.chatinvite {height: 60px;display: flex;gap: 4px;align-items: center;justify-content: center; background: var(--forum);border-bottom-left-radius: var(--rad2);border-bottom-right-radius: var(--rad2);}
 .chatinvite i.cp {-webkit-animation: 1.5s infinite heartBeat; animation: 1.5s infinite rubberBand; color: var(--co2);}
 
 .wprofile {background: var(--fond5); border: 1px solid var(--borderw); border-radius: var(--rad3); display: grid; grid-template: auto / 1fr 1.5fr; gap: 5px; padding: 20px;}

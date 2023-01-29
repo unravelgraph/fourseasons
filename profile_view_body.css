@@ -1,0 +1,72 @@
+input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:transparent;border:none!important;}
+  
+  .apfhaut, .apfbas {text-align:center;padding:15px;}
+.apfhaut{height:66px;line-height:20px;text-transform:uppercase;font-family:var(--font3);
+  border-radius:var(--rad3) var(--rad3) 0px 0px;border-bottom:1px solid var(--barre);background:var(--rad6);}
+ .apfhaut useri{font-size:26px;font-weight:800;letter-spacing:-1px;}
+  useri strong{color:var(--header)!important;}
+ .apfhaut conex{font-size:10.5px;font-weight:600;letter-spacing:1px;}
+  .apftop{border-radius:11px 11px 0px 0px;top:0px;left:0px;z-index:1;position:absolute;
+  width:930px;height:66px;padding:15px;background:rgba(0, 0, 0, 0);opacity:0.8;}
+  
+ .afpgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px 15px;}
+  
+ .afpgauche{width:684px;height:387px;background:var(--fond3);border:1px solid var(--barre);border-radius:var(--rad3);padding:15px;}
+ .afpdroite{width:200px;}
+
+.afphcc {display: grid; grid-template-columns: 1fr 1fr 1fr; gap:0px 0px;}
+.afphcc div{text-align:center;} .apfhcc a{color:var(--txt)!important;}
+.apfirl{width:568px;}  
+.apfpsd{display:none;}
+.apfsrn{display:none;}
+.apfprn{display:none;}
+.apfpsd:nth-child(7), .apfsrn:nth-child(8), .apfprn:nth-child(9) {display:block!important} 
+  
+.apfgifaut{position:relative;z-index:2;}
+.apfgif{display:none;backdrop-filter: blur(10px);border-radius:var(--rad);}
+.apfgif:nth-child(1) {display:block!important;} 
+.apfgif:nth-child(1) img{object-fit:cover;border:1px solid var(--borderw);padding:4px;width:70px;height:70px;
+ border-radius:var(--rad);background:var(--fond6);opacity:0.9;} 
+
+.afp1{width:200px;}
+.afpava img{width:200px;height:280px;object-fit:cover;border-radius:var(--rad3);opacity:0.9;} 
+.afpline {margin-top:15px;background:var(--co1);border-radius:4px;border:1px solid var(--barre);
+ padding:5px;height:30px;width:200px;opacity:0.8;position:relative;z-index:1;}  
+.aline{margin-top:-23px;color:var(--header)!important;position:relative;z-index:2;} 
+  
+.apffc{display:none;}
+.apffc:nth-child(10) {display:block!important;} 
+  
+.afp2{width:445px;margin-left:-10px;}  
+#afpint::-webkit-scrollbar {width:1px!important;height:1px!important;border:none!important;}
+#afpint::-webkit-scrollbar-track {background-color:var(--borderw)!important;border:none!important}
+#afpint::-webkit-scrollbar-thumb {background:var(--borderg);border:none!important}  
+.afp2 #afpog{padding: 2px 15px; background: var(--fond4);margin: 0px 5px;border-radius: 2px;}
+.actif-onglet {background:var(--fond4)!important;}
+#afpog a, .actif-onglet{color:var(--txt)!important;}  
+#afpint f1{font-size:11.5px;}  
+#afpint {margin-top:5px; height:298px;padding:10px;overflow:auto;position:relative;z-index:1;} 
+#afpint img{max-width:408px;object-fit:cover;}
+.apfchamps{margin:10px 0px;}
+.apfchamps:nth-child(-n+12) {display:none;}
+.apfrpg:nth-child(-n+11) {display:none;}
+.apfrpg:nth-child(n+13) {display:none;} 
+  
+  
+.afpinsc, .afpmess, .afprp, .afpprimo, .afpexp {display:none;}
+.afpinsc:nth-child(2), .afpmess:nth-child(3), .afprp:nth-child(4), .afpprimo:nth-child(5), .afpexp:nth-child(6) {display:block!important;}                      
+  
+ .afpinsc, .afpmess, .afprp, .afpprimo {line-height:15px;padding:11px 7px 7px 7px;} 
+ .afpexp, afpcontact{padding:7px;}
+ .afpinsc, .afpmess, .afprp, .afpprimo, .afpexp, .afpcontact {margin-bottom:15px;background:var(--fond3);
+ font-weight:700;letter-spacing:-0.5px;
+ border:1px solid var(--barre);border-radius:var(--rad3);text-align:center;height:52px;font-size:14px;color:var(--co1);}
+  l4{color:var(--txt)!important;}
+ .afpctc{display:inline-block;font-size:0px;20px;} .afpctc img{width:20px;}
+  
+  .apfbas a, .afphcc, .aline, #afpog{font-family: var(--font3);font-size: 11px; font-weight: 600;
+  text-transform:uppercase;}
+  bs{border-bottom:1px solid var(--borderw);}
+  .apfbas a{color:var(--txt)!important;}
+  .apfbas{border-radius:0px 0px var(--rad3) var(--rad3);background: var(--fond3);border-top:1px solid var(--barre);}
+   .afpgrib { display: grid; grid-template-columns: 1fr  1fr 1fr; gap:0px 0px;}

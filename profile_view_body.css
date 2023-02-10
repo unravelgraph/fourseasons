@@ -7,7 +7,7 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
   useri strong{color:var(--header)!important;}
  .apfhaut conex{font-size:10.5px;font-weight:600;letter-spacing:1px;}
   .apftop{border-radius:11px 11px 0px 0px;top:0px;left:0px;z-index:1;position:absolute;
-  width:930px;height:66px;padding:15px;background:rgba(0, 0, 0, 0);opacity:0.8;}
+  width:930px;height:66px;padding:15px;background:rgba(0, 0, 0, 0);opacity:0.7;}
   
  .afpgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px 15px;}
   
@@ -41,9 +41,8 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
 #afpint::-webkit-scrollbar {width:1px!important;height:1px!important;border:none!important;}
 #afpint::-webkit-scrollbar-track {background-color:var(--borderw)!important;border:none!important}
 #afpint::-webkit-scrollbar-thumb {background:var(--borderg);border:none!important}  
-.afp2 #afpog{padding: 2px 15px; background: var(--fond4);margin: 0px 5px;border-radius: 2px;}
-.afp2 .actif-onglet {background:var(--fond4)!important;}
-#afpog a, .actif-onglet{color:var(--txt)!important;}  
+.afp2 #afpog{padding: 2px 15px; background: var(--fond4);margin: 0px 5px;border-radius: 2px;color:var(--header)!important;}
+.afp2 .actif-onglet {background:var(--borderg)!important;color:var(--header)!important;}
 #afpint f1{font-size:11.5px;}  
 #afpint {margin-top:5px; height:298px;padding:10px;overflow:auto;position:relative;z-index:1;} 
 #afpint img{max-width:408px;object-fit:cover;}

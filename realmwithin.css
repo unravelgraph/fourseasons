@@ -30,7 +30,7 @@
 
 .rwinfo2{border-radius: var(--rad4);}
 #rwliens{height:47px;}
-#rwliens f7{padding:0px 2px;}
+#rwliens a{padding:0px 2px;}
 
 .rwgif{margin:20px 0px;}
 .rwgif, .rwgif img{width:83px;height:83px;border-radius:var(--rad3);object-fit:cover;opacity:0.9;} 

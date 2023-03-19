@@ -1,0 +1,84 @@
+input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:transparent;border:none!important;}
+  .apfbas a, .afphcc, .aline, #afpog {
+    font-family: var(--font3);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+   bs{border-bottom:1px solid var(--borderw);}
+  .apfbas a{color:var(--txt)!important;}
+  .apfbas{border-radius:0px 0px var(--rad3) var(--rad3);background: var(--fond3);border-top:1px solid var(--barre);}
+   .afpgrib { display: grid; grid-template-columns: 1fr  1fr 1fr; gap:0px 0px;}
+  
+  .apfhaut, .apfbas {text-align:center;padding:15px;}
+  .apfhaut{height:66px;padding:15px;opacity:0.9;line-height:20px;text-transform:uppercase;font-family:var(--font3);
+  border-radius:var(--rad3) var(--rad3) 0px 0px;border-bottom:1px solid var(--barre);background:var(--rad6);}
+  .apfhaut useri{font-size:26px;font-weight:800;letter-spacing:-1px;}
+  useri strong{color:var(--header)!important;}
+  .apfhaut conex{font-size: 9px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase; font-family: var(--font3); 
+   background: var(--fond5); color: var(--header); padding: 1px 6px; border-radius: 3px;}
+  
+   .afpgrid { display: flex; gap: 15px;}
+   .afpgauche{width:684px;height:387px;background:var(--fond3);border:1px solid var(--barre);border-radius:var(--rad3);padding:15px; position:relative;}
+   .afpdroite{width:200px;}
+  
+   .apfirl {display: grid; grid-template-columns: repeat(3, 1fr);height: 30px; width: 566px;place-items:center;}
+   .apfirl div {font-family: var(--font3); font-size: 11px; font-weight: 600; text-transform: uppercase;margin-top: -3px;}
+   #apffc f1, #apfpseudo f1, #apfpronouns f1, .apfgif f1, .afpinsc f1, .afpmess f1, .afprp f1, .afpprimo f1, .afpexp f1, #field_id1, #field_id10 {display:none;}
+   #apffc .ajax-profil_edit, #apfpseudo .ajax-profil_edit, #apfpronouns .ajax-profil_edit {margin-left:-15px;}
+  
+  
+  .apfgifaut {
+    position: absolute;
+    right: 16px; top:16px;
+    z-index: 2;
+}
+  
+    #field_id15 .field_uneditable img {
+    object-fit: cover;
+    border: 2px solid var(--borderw);
+    padding: 4px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 0.9;
+    border-radius: var(--rad);
+    background: var(--fond6);
+  }
+  
+  .afp1{width:200px;}
+  .afpava img{width:200px;height:280px;object-fit:cover;border-radius:var(--rad3);opacity:0.9;}
+  .aline {
+    margin-top: 15px;
+    background: var(--co1);
+    border-radius: 4px;
+    border: 1px solid var(--barre);
+    padding: 5px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    text-align:center;
+    color: var(--header)!important;
+    opacity: 0.9;
+  }
+  
+  .afp2{width:445px;margin-left:-10px;}  
+  #afpint::-webkit-scrollbar {width:1px!important;height:1px!important;border:none!important;}
+  #afpint::-webkit-scrollbar-track {background-color:var(--borderw)!important;border:none!important}
+  #afpint::-webkit-scrollbar-thumb {background:var(--borderg);border:none!important}  
+  
+  .afp2 #afpog{padding: 2px 15px;margin: 0px 5px;border-radius: 2px;color:var(--header)!important;}
+  .afp2 #afpog.actif-onglet {color:var(--header)!important;}
+  
+  #afpint f1{font-size:11.5px;}  
+  #afpint {margin-top:5px; height:298px;padding:10px;overflow:auto;position:relative;z-index:1;} 
+  #afpint img{max-width:408px;object-fit:cover;}
+  
+  .afpinsc, .afpmess, .afprp, .afpprimo {line-height:15px;padding:11px 7px 7px 7px;} 
+ .afpexp, afpcontact{padding:7px;}
+ .afpinsc, .afpmess, .afprp, .afpprimo, .afpexp, .afpcontact {margin-bottom:15px;background:var(--fond3);
+ font-weight:700;letter-spacing:-0.5px;
+ border:1px solid var(--barre);border-radius:var(--rad3);text-align:center;height:52px;font-size:14px;color:var(--co1);}
+  l4{color:var(--txt)!important;}
+ .afpctc{display:inline-block;font-size:0px;20px;} .afpctc img{width:20px;}

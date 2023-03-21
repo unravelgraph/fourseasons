@@ -48,7 +48,7 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
 #afpint {margin-top:5px; height:298px;padding:10px;overflow:auto;position:relative;z-index:1;} 
 #afpint img{max-width:408px;object-fit:cover;}
 .apfchamps{margin:10px 0px;}
-.apfchamps:nth-child(-n+12) {display:none;}
+.apfchamps:nth-child(-n+13) {display:none;}
 .apfrpg:nth-child(-n+11) {display:none;}
 .apfrpg:nth-child(n+13) {display:none;} 
   

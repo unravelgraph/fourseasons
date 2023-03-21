@@ -26,7 +26,7 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
 .apfgifaut{position:relative;z-index:2;}
 .apfgif{display:none;backdrop-filter: blur(10px);border-radius:var(--rad);}
 .apfgif:nth-child(1) {display:block!important;} 
-.apfgif:nth-child(1) img{object-fit:cover;border:1px solid var(--borderw);padding:4px;width:70px;height:70px;
+.apfgif:nth-child(1) img{object-fit:cover;border:2px solid var(--borderw);padding:4px;width:70px;height:70px;
  border-radius:var(--rad);background:var(--fond6);opacity:0.9;} 
 
 .afp1{width:200px;}

@@ -27,7 +27,7 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
    .apfirl .field_editable img {margin-top: -25px;margin-left: -10px;}
    #apffc f1, #apfpseudo f1, #apfpronouns f1, .apfgif f1, .afpinsc f1, .afpmess f1, .afprp f1, .afpprimo f1, .afpexp f1, #field_id1, #field_id10 {display:none;}
    #apffc:before {content: '\e9e2';font-family: 'cappuccicons'!important;position: absolute;left: -20px;opacity:0.8;top: -3px;}
-   #apffc .ajax-profil_edit, #apfpseudo .ajax-profil_edit, #apfpronouns .ajax-profil_edit {margin-left:-20px;}
+   #apffc .ajax-profil_edit, #apfpseudo .ajax-profil_edit, #apfpronouns .ajax-profil_edit {margin-left:-10px;}
   
   
   .apfgifaut {

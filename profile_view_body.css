@@ -55,7 +55,7 @@ input[type="text"], .inputbox {margin: 0px; padding:0px!important;background:tra
   
 .afpinsc, .afpmess, .afprp, .afpprimo, .afpexp {display:none;}
 .afpinsc:nth-child(2), .afpmess:nth-child(3), .afprp:nth-child(4), .afpprimo:nth-child(5), .afpexp:nth-child(6) {display:block!important;}
-body.night .afpexp:nth-child(6) {filter: var(--gauge);}
+body.night .afpexp:nth-child(6) img{filter: var(--gauge);}
   
  .afpinsc, .afpmess, .afprp, .afpprimo {line-height:15px;padding:11px 7px 7px 7px;} 
  .afpexp, afpcontact{padding:7px;}

@@ -14,9 +14,10 @@ grid-template-columns: 1fr 1fr 1fr; gap: 15px 20px;} .fgrid1 div{text-align:left
 background-clip: text; -webkit-background-clip: text;} 
 .ffc1{text-transform:uppercase;font-weight:600;opacity:0.9;letter-spacing:2px;font-size:11px;margin-bottom:20px;} 
 
-.fgela1{animation:hithere 3s infinite ease-out} 
+.fgela1{height:50px;display:grid;align-content:center;animation:hithere 3s infinite ease-out} 
 .flogo1{width:50px;height:50px;border-radius:var(--rad);background:var(--fond4);border:1px solid var(--cadre);
-padding:10px 1px 0px 0px;font-size:25px;margin-bottom:20px;}
+padding:0px;margin-bottom:20px;}
+.fgela1 i{font-size:25px;}
 
 .fgrid1b{margin:20px 0px;display: grid; grid-template-columns: 62px 1fr 62px; gap: 0px 20px;justify-content:center;} 
 .finfo1b{background:var(--fond4);border:1px solid var(--cadre);border-radius:var(--rad3);padding:15px;

@@ -17,7 +17,7 @@ background-clip: text; -webkit-background-clip: text;}
 .fgela1{height:50px;width:50px;animation:hithere 3s infinite ease-out;display:grid;align-content:center;} 
 .flogo1{width:50px;height:50px;border-radius:var(--rad);background:var(--fond4);border:1px solid var(--cadre);
 padding:0px;margin-bottom:20px;}
-.fgela1 i{font-size:25px;}
+.fgela1 i{font-size:25px;line-height:25px;}
 
 .fgrid1b{margin:20px 0px;display: grid; grid-template-columns: 62px 1fr 62px; gap: 0px 20px;justify-content:center;} 
 .finfo1b{background:var(--fond4);border:1px solid var(--cadre);border-radius:var(--rad3);padding:15px;

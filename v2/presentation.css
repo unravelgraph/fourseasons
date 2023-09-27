@@ -28,10 +28,10 @@ height:292px;text-align:justify;line-height:130%;font-size:13px;}
 .fico1 img, .fico2 img{opacity:0.8;width:50px;height:50px;border-radius:var(--rad3);object-fit:cover;
 -webkit-mask-image: linear-gradient(to bottom,#000 0,#000 30%,transparent 100%);opacity:0.9;} 
 
-.fonglets1{margin-top:-313px;display: grid;gap: 0px 15px;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 80px;
+.fonglets1{margin-top:-313px!important;display: grid;gap: 0px 15px;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: 80px;
 justify-content:center;width:100%;}
 .fmog1{grid-column: 1/4; grid-row: 1/4;width:656px;} 
-.fcog1{margin-bottom:20px;width: 492px; height: 292px;} 
+.fcog1{margin-bottom:20px!important;width: 492px; height: 292px;} 
 .fog1{background-color:var(--fond4);border:1px solid var(--cadre);border-radius:var(--rad3);height:32px;
 text-align:center;display:flex;align-items:center;justify-content: center;position:relative;font-weight:700;
 text-transform: uppercase; font-size: 12px;font-family: var(--font3);} 

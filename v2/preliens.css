@@ -30,13 +30,14 @@
 .fmog1cb { grid-column: 2/4; grid-row: 1/4; width: auto;} 
 .fcog1cb{width: auto;height:auto;} 
 .fnob{background:transparent!important;border:none!important;padding:0px!important;} 
-.f1bc{height: 100%; overflow: auto;padding-right: 5px;} 
 .f1bc3{max-height:300px;height: 100%; overflow: auto;padding-right: 5px;} 
 .fog1bc, .fog1bc2, .fog1bc3{position:absolute;font-size:13px;letter-spacing:-0.2px;font-weight:700;color:var(--co2);
 text-transform:uppercase;font-family:var(--font3);background:var(--gradient);color:transparent;font-weight:800;
 background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;} 
 .fog1bc{top:0px} .fog1bc2{top:20px} .fog1bc3{top:40px} 
 ooo{padding-right:5px;color:var(--txt)!important;}
+.fclick1{position:absolute;top:60px;left:20px;text-transform:uppercase;font-size:9px;letter-spacing:1px;
+    opacity:0.6;font-family:var(--font3);font-weight:600;}
 
 .finfo1bc{margin-left:15px;background:var(--fond4);border:1px solid var(--cadre);
 border-radius:var(--rad3);padding:15px;text-align:justify;line-height:130%;font-size:13px;} 

@@ -39,7 +39,7 @@ width: 30px; height: 30px; mix-blend-mode: revert;position:absolute;left: 30px;t
 filter: grayscale(100%) contrast(80%);object-fit: cover; } 
 
 .cprofili {width:222px;height:347px;border: 1px solid var(--cadre);padding:5px;background: var(--fond4);border-radius:var(--rad4);}
-.profili ava {border-radius:var(--rad3);position: relative; display: block; width: 210px; height: 335px; overflow: hidden;}
+.profili ava {border-radius:var(--rad3);position: relative; display: block; width: 209px; height: 335px; overflow: hidden;}
 .profili ava look {display: block;width: 210px;height: 335px;object-fit:cover;transition: all .5s ease-in-out 0s;}
 .profili ava:hover look {display: block; -webkit-transform: scale(1.3); transition: all .5s ease-in-out 0s;
  -webkit-filter: grayscale(100%) brightness(80%) blur(3px);filter: grayscale(100%) brightness(75%) blur(3px);}

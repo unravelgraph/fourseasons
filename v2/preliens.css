@@ -67,4 +67,22 @@ padding-bottom:5px;}
 .fhorsrp1 div{width:auto;overflow:auto;max-height:130px;margin-top:15px;background:var(--fond4);
 border:1px solid var(--cadre);border-radius:var(--rad3);padding:15px;text-align:justify;line-height:130%;font-size:13px;}
 
- 
+  /* PRELIENS UNIQUES --------------- */
+
+.fgrad1d{opacity: 0.4; top: -250px; left: -150px; z-index: 1; position: absolute; width: 500px; height: 500px;
+background: linear-gradient(315deg,var(--fondco2),var(--fondco1));border-radius:var(--rad);overflow:hidden;} 
+.fgrad1d:before{ content: ''; animation: growAndFade 5s infinite ease-out; transition: all 1s; display: block; width: 850px;
+ height: 850px; border-radius: var(--rad); background: var(--header);top: -300px; left: -300px;z-index:-1px; position: relative;}
+
+.fgrid1f { display: grid; grid-template-columns: 290px auto;height:104px;margin-bottom:15px;gap:0px 15px;} 
+.flyrics1{text-align:left;color:var(--header);text-transform:lowercase;font-family:var(--font5);font-size:13px;
+ line-height:130%;font-style:italic;height:104px;overflow:hidden;} 
+
+.ftitco1{text-align:right;display:grid;align-items: center; justify-content: right;}
+.fpl1img{grid-template-columns: 70px 70px 70px;gap:0px 15px; display:grid;margin-top:15px;} 
+.fpl1img div{width:70px;height:70px;border-radius:var(--rad3);border:1px solid var(--cadre);padding:5px;}
+.fpl1img div img{width:58px;height:58px;border-radius:var(--rad3);opacity:0.8;} 
+
+.f2blocs{ display: grid; grid-template-columns: auto auto;gap:0px 15px;margin:15px 0px;}
+.f2blocs div{max-height:300px;overflow:auto;background:var(--fond4);border:1px solid var(--cadre);
+ border-radius:var(--rad3);padding:15px;text-align:justify;line-height:130%;font-size:13px;}

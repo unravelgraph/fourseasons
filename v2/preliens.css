@@ -31,10 +31,9 @@
 .fcog1cb{width: auto;height:auto;} 
 .fnob{background:transparent!important;border:none!important;padding:0px!important;} 
 .f1bc3{max-height:300px;height: 100%; overflow: auto;padding-right: 5px;} 
-.fog1bc{background-color: var(--fond4); border: 1px solid var(--cadre); border-radius: var(--rad3); height: 32px; 
- text-align: center; display: flex; align-items: center; justify-content: center; position: relative; 
- font-weight: 700; text-transform: uppercase; font-size: 12px; font-family: var(--font3);background:var(--gradient);
-  color:transparent;font-weight:800;background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;} 
+.fog1bc{text-align: center; display: flex; align-items: center; justify-content: center; position: relative;text-transform: uppercase;
+ font-size: 13px; font-family: var(--font3);background:var(--gradient);color:transparent;
+ font-weight:800;background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;} 
 ooo{padding-right:5px;color:var(--txt)!important;}
 
 .finfo1bc{background:var(--fond4);border:1px solid var(--cadre);

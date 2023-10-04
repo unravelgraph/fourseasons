@@ -27,7 +27,7 @@
  
  
  .fclanong1{display: grid;grid-template-columns: 1fr 1fr 1fr;justify-content:center;width:100%;} 
-.fmog1cb { grid-column: 1/4;width: auto;margin:5px 0px 15px 0px!important;} 
+.fmog1cb { grid-column: 1/4;width: auto;margin:15px 0px!important;} 
 .fcog1cb{width: auto;height:auto;} 
 .fnob{background:transparent!important;border:none!important;padding:0px!important;} 
 .f1bc3{max-height:300px;height: 100%; overflow: auto;padding-right: 5px;} 

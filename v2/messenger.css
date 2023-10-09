@@ -5,7 +5,8 @@
 #FAM[data-hidden=true]{visibility:hidden;opacity:0;bottom:calc(-100% + 520px)}
 #FAM:before{content:'x';width:calc(100% - 20px);height:30px;background:var(--fond00);padding-right:20px;text-align:right;line-height:30px;font-family:var(--font3);font-weight:900;}
 #FAM.FAM-embedded{position:relative;bottom:0;right:0;width:100%;height:500px;margin:12px auto;z-index:1}
-#FAM-button{font-size:11px;text-transform:uppercase;letter-spacing: 1px;font-weight: 700;font-family: var(--font3);position:fixed;width:45px;height:45px;right: calc(75% / 2);top:19px;cursor:pointer;z-index:999;transition-property:right;transition-duration:500ms;display:flex;gap:10px}
+#FAM-button{font-size:11px;text-transform:uppercase;letter-spacing: 1px;font-weight: 700;font-family: var(--font3);
+position:fixed;width:45px;height:45px;right: calc(75% / 2);top:19px;cursor:pointer;z-index:998;transition-property:right;transition-duration:500ms;display:flex;gap:10px}
 #FAM-button:after{content:'messenger';}#FAM-button i {font-size:15px; color:var(--co1);}
 #FAM-button:hover,#FAM[data-hidden=false]~#FAM-button{}
 #FAM-toolbar{color:var(--FAM-titleClr);position:relative;margin:20px 15px 15px}

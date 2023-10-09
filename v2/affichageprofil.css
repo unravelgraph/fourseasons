@@ -2,7 +2,6 @@
   /*deco profil*/
 .i-b-g{width:150px;}
 .i-b-d{width:558px;padding: 5px 10px 5px 10px!important;}  
-.inv-bloc{margin-top:-15px;} 
 .inv-bloc td{border-bottom:1px solid rgba(var(--fond100),0.4);}  
 .inv-bloc h2{font-size:90%;display:inline!important;font-weight:700;padding:0px 4px;background:var(--fond3);
 text-transform:uppercase;text-align:unset;letter-spacing:0px;font-family:var(--font3);border-radius:var(--rad3);} 

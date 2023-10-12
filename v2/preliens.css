@@ -72,7 +72,7 @@ background: linear-gradient(315deg,var(--fondco2),var(--fondco1));overflow:hidde
 .flgif1{left:0;top:0;position:absolute;width:450px;height:200px;
 -webkit-mask-image: linear-gradient(to bottom,#000 0,#000 0%,transparent 100%);} 
 .flgif1b{position:relative;background:linear-gradient(315deg,var(--fondco2),var(--fondco1));width:450px;
- height:200px;-webkit-mask-image: linear-gradient(to right,#000 0,#000 0%,transparent 85%);} 
+ height:200px;-webkit-mask-image: linear-gradient(to right,#000 0,#000 0%,transparent 98%);} 
 .flgif1b img{width:480px;height:200px;object-fit:cover;opacity:0.5;filter:grayscale(1);}
 
 .fgrid1f { display: grid; grid-template-columns: 290px auto;height:104px;margin-bottom:15px;gap:0px 15px;} 

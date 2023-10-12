@@ -76,7 +76,7 @@ background: linear-gradient(315deg,var(--fondco2),var(--fondco1));overflow:hidde
 .flgif1b img{width:480px;height:200px;object-fit:cover;opacity:0.5;filter:grayscale(1);}
 
 .fgrid1f { display: grid; grid-template-columns: 290px auto;height:104px;margin-bottom:15px;gap:0px 15px;} 
-.flyrics1{text-align:left;color:var(--header);text-transform:lowercase;font-family:var(--font5);font-size:13px;
+.flyrics1{text-align:left;color:var(--txt);text-transform:lowercase;font-family:var(--font5);font-size:13px;
  line-height:130%;font-style:italic;height:104px;overflow:hidden;} 
 
 .ftitco1{text-align:right;display:grid;align-items: center; justify-content: right;}

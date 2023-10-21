@@ -4,13 +4,13 @@
 
 .fgrid1{background:var(--fond4);border:1px solid var(--cadre);border-radius:var(--rad3);padding:15px;display: grid; 
 grid-template-columns: 1fr 1fr 1fr; gap: 15px 20px;overflow:hidden;} .fgrid1 div{text-align:left;line-height:13px;position:relative;} 
-.gic-1{position:relative;float:right;font-size:14px;} .fgrid1 rep{font-size:12px;letter-spacing:-0.2px;font-weight:500;} 
+#gic-1{position:relative;float:right;font-size:14px;} .fgrid1 rep{font-size:12px;letter-spacing:-0.2px;font-weight:500;} 
 .fgrid1 champ, .fgrid1 champ2{font-size:12px;font-weight:700;color:var(--co2);text-transform:uppercase;font-family:var(--font3);} 
 .fgrid1 champ2{color:var(--co1);} 
 
 .fpseudo1{font-family:var(--font3);text-transform:uppercase;font-size:24px;letter-spacing:-1px;} 
 .fpseudo1 w{font-weight:600;} .fpseudo1 b{font-weight:900;} 
-.gic-1, .fpseudo1 w, .flogo1 i, .fpmi1, .fog1 oo, .fperso1 i{background: var(--gradient); color: transparent;
+#gic-1, .fpseudo1 w, .flogo1 i, .fpmi1, .fog1 oo, .fperso1 i{background: var(--gradient); color: transparent;
 background-clip: text; -webkit-background-clip: text;} 
 .ffc1{text-transform:uppercase;font-weight:600;opacity:0.9;letter-spacing:2px;font-size:11px;margin-bottom:20px;} 
 

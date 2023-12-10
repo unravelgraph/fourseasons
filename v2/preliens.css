@@ -85,7 +85,7 @@ background: linear-gradient(315deg,var(--fondco2),var(--fondco1));overflow:hidde
 .ftitco1{text-align:right;display:grid;align-items: center; justify-content: right;}
 .fpl1img{grid-template-columns: 70px 70px 70px;gap:0px 15px; display:grid;margin-top:15px;} 
 .fpl1img div{width:70px;height:70px;border-radius:var(--rad3);border:1px solid var(--cadre);padding:5px;}
-.fpl1img div img{width:58px;height:58px;border-radius:var(--rad3);opacity:0.8;} 
+.fpl1img div img{width:58px;height:58px;object-fit:cover;border-radius:var(--rad3);opacity:0.8;} 
 
 .f2blocs{ display: grid; grid-template-columns: auto auto;gap:0px 15px;margin:15px 0px;}
 .f2blocs div{max-height:300px;overflow:auto;background:var(--fond4);border:1px solid var(--cadre);

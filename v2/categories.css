@@ -57,7 +57,8 @@
 #c1 .gridcat1:first-of-type .titcat1:before{content:'\EC80'}
 #c1 .gridcat1:first-of-type .avacat1{grid-row:3/4;grid-column:1/2;border:none;justify-self:end}
 #c1 .gridcat1:first-of-type .lastbloc1{grid-row:3/4;grid-column:2/3;z-index:2;width:185px;backdrop-filter: blur(4px);}
-[data-color-scheme="light"] #c1 .gridcat1:first-of-type .lastbloc1 {backdrop-filter: blur(4px) contrast(1.4);}
+[data-color-scheme="dark"] #c1 .gridcat1:first-of-type .lastit1 a {filter: brightness(1.2);}
+[data-color-scheme="light"] #c1 .gridcat1:first-of-type .color-groups {filter: brightness(0.8);}
 #c1 .gridcat1:first-of-type .avasp1{display:none}
 #c1 .gridcat1:not(:first-of-type){grid-template:47px auto / 185px 313px 50px;margin-left:20px;position:relative;justify-content: flex-end}
 #c1 .gridcat1:not(:first-of-type) .avacat1{position:absolute;top:64px;left:143px;border:0;width:fit-content;height:fit-content}

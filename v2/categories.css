@@ -52,9 +52,8 @@
 #c3 .gridcat1:first-of-type .avacat1,#c3 .gridcat1:first-of-type .lastbloc1{display:none}
 #c3 .gridcat1:not(:first-of-type){grid-template:47px auto / 185px 313px 50px}
 #c3 .gridcat1:not(:first-of-type) .avacat1{display:none}
-#c3 .gridcat1:not(:first-of-type) .avacat1{position:absolute;top:64px;left:143px;border:0;width:fit-content;height:fit-content}
+#c3 .gridcat1:not(:first-of-type) .avacat1{position:absolute;top:64px;left:135px;border:0;width:fit-content;height:fit-content}
 #c3 .gridcat1:not(:first-of-type) #avacat1 img,#c1 .gridcat1:not(:first-of-type) .avacati1{width:30px;height:30px}
-#c3 .gridcat1:not(:first-of-type) .avasp1{display:none}
 #c1 .topiclist.forums{grid-template:auto auto auto / auto 390px}
 #c1 .gridcat1:first-of-type{grid-row:1/4;grid-column:2/3;border-radius:0 var(--rad4) var(--rad4) 0;grid-template:auto auto auto / 92px auto}
 #c1 .gridcat1:first-of-type .titcat1:before{content:'\EC80'}

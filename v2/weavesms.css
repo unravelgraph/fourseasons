@@ -12,7 +12,7 @@
 #main.weave .allrep #cadre:not(:first-of-type) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
 
 #main.smss .allrep {display:grid;}
-#main.smss .allrep #cadre {margin:0;}
+#main.smss .allrep #cadre:not(:first-pf-type) {margin:0;}
 #main.smss .allrep #cadre:not(:first-of-type), #main.weave .allrep #cadre:not(:first-of-type) {background: transparent;}
 #main.smss .allrep #cadre:not(:first-of-type) .cprofili, #main.weave .allrep #cadre:not(:first-of-type) .cprofili{border:0; background:transparent; padding:0;width: fit-content;height: 100%;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center; padding:10px}
 #main.smss .allrep #cadre:not(:first-of-type) ava, #main.weave .allrep #cadre:not(:first-of-type) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);}

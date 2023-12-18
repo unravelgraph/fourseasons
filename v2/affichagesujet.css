@@ -9,7 +9,8 @@ transform: rotateY(360deg); -webkit-transition: all 0.8s ease-in-out;  transitio
 .sort-form {position: absolute;width:max-content;x-index:1000;display: none;}
 #sort-btn.expanded + .sort-form {display: block;}
 .titmess {font-family: var(--font2);} .titmess a {font-size: 24px!important;}
-.pagev {margin: 1px;line-height: 21px;background: rgba(var(--fond100),0.4);border-radius: 3px;padding: 0px 6px;font-family: var(--font3);font-size: 11px;font-weight: 700;letter-spacing: -0.5px;margin: 5px;text-transform:uppercase;opacity:0.8;}
+.pagev {margin: 1px;line-height: 21px;background: rgba(var(--fond100),0.4);border-radius: 3px;padding: 0px 6px;
+        font-family: var(--font3);font-size: 11px;font-weight: 700;letter-spacing: -0.5px;margin: 5px;text-transform:uppercase;}
 .newt, .rept {text-transform: uppercase;font-size: 13px!important;font-family: var(--font3);font-weight: 700;padding: 0 4px;}
 /*poster list*/
   

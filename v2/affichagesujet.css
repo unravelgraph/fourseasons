@@ -70,7 +70,7 @@ filter: grayscale(100%) contrast(80%);object-fit: cover; }
 .pseudo {margin:10px 0px 5px 0px;width:222px;border-radius: var(--rad4); background: var(--fond4); padding: 7px 5px 5px 5px;font-size:14px;
  border: 1px solid var(--cadre);text-align:center;font-family:var(--font3);letter-spacing:0.5px;text-transform:uppercase;}
 .pcontact {margin:-2px 0px -7px 0px;text-align:center;width:222px;}
-.pcontact img{opacity: 0.8; filter: grayscale(1) contrast(1.2); width: 36px;}
+.pcontact img{opacity: 0.8; filter: grayscale(1) contrast(1.2); width: 35px;}
 .infospro {position:relative;z-index:2;background:var(--fond4);border:1px solid var(--cadre);
 font-size:12px;border-radius:var(--rad4);height:170px;width:222px;margin-top:5px;margin-bottom:30px;} 
 #ogpro {padding: 2px 0;position:absolute;bottom:0;width:107px;z-index:3;border-radius: 4px;background:var(--gradient);

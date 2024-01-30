@@ -66,7 +66,7 @@ text-transform:uppercase;font-family:var(--font3);}
 .fperso1b{text-align: justify; line-height: 130%; font-size: 13px; border-radius: var(--rad3); 
 padding: 15px;height: 134px;background: var(--fond4); border: 1px solid var(--cadre);position:relative;margin-right:33px;
 display: flex; align-items: center; justify-content: right;} 
-.fp1b{margin-right:35px;height:100%;overflow:auto;padding-right:5px;padding-top:3px;} 
+.fp1b{margin-right:35px;width:100%;height:100%;overflow:auto;padding-right:5px;padding-top:3px;} 
 .fpergif1 {position:absolute;right:-35px; width: 72px; height: 72px; border: 1px solid var(--cadre); 
 padding: 7px; background: var(--gradient);border-radius: var(--rad);opacity:0.9;} 
 .fpergif1 img{ width: 56px; height: 56px; object-fit: cover; border-radius: var(--rad);}

@@ -82,9 +82,9 @@ text-transform:uppercase;border:1px solid var(--cadre);}
 .profile_field img{max-width:168px;}     
 .chara dl.codebox {margin:5px 0px -10px 0px;font-size:12px!important;}    
 .chara hr{border-bottom: 1px solid var(--borderg);}  
-.postprofile .field-gif, .postprofile .field-inscription, .postprofile .field-messages, .postprofile .field-primogemmes, .postprofile .field-quetes-completees, .postprofile .field-rp-du-mois, 
-.postprofile-info .field-pseudo, .postprofile-info .field-inscription, .postprofile-info .field-surnom, .postprofile-info .field-pronoms, .postprofile-info .field-avatar, .postprofile-info .field-dialogue,
-.chara .field-aesthetic .field_label, .chara .field-inventaire, .invt .profile_field:not(.field-inventaire) {display:none;}
+.postprofile .field-gif, .postprofile .field-inscription, .postprofile .field-messages, .postprofile .field-primogemmes, .postprofile .field-quetes-completees,
+.postprofile .field-rp-du-mois, .postprofile-info .field-pseudo, .postprofile-info .field-inscription, .postprofile-info .field-surnom, .postprofile-info .field-pronoms,
+.postprofile-info .field-avatar, .postprofile-info .field-dialogue, .chara .field-aesthetic .field_label, .chara .profile_field:not(.field-aesthetic, .field-disclaimer, .field-credits), .invt .profile_field:not(.field-espece, .field-magie, .field-activites) {display:none;}
   .chara .field-aesthetic .field_separator {display:block;}
   
   .poster-list{display:flex;align-items: center;width:fit-content;margin-bottom:5px;padding:10px 0}

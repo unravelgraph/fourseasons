@@ -1,4 +1,3 @@
-#main.smss .allrep #cadre.firstpost, #main.weave .allrep #cadre.firstpost{margin-top:20px;}
 #main.weave .pbarre2, #main.smss .pbarre2, #main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
 #main.weave .post-head, #main.smss .post-head{margin-bottom:10px;}
 #main.weave .allrep #cadre:not(.firstpost) .grd, #main.weave .allrep #cadre:not(.firstpost) fixpro, #main.weave .allrep #cadre:not(.firstpost) inteprofili, #main.weave .allrep #cadre:not(.firstpost) .postprofile-name, #main.weave .allrep #cadre:not(.firstpost) .pcontact, #main.weave .allrep #cadre:not(.firstpost) .postprofile-info,

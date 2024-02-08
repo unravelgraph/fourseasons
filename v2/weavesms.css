@@ -1,29 +1,29 @@
 #main.weave .pbarre2, #main.smss .pbarre2, #main.weave .allrep #cadre:first-of-type .postprofile, #main.smss .allrep #cadre:first-of-type .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
 #main.weave .post-head, #main.smss .post-head{margin-bottom:10px;}
-#main.weave .allrep #cadre:not(:first-of-type) .grd, #main.weave .allrep #cadre:not(:first-of-type) fixpro, #main.weave .allrep #cadre:not(:first-of-type) inteprofili, #main.weave .allrep #cadre:not(:first-of-type) .postprofile-name, #main.weave .allrep #cadre:not(:first-of-type) .pcontact, #main.weave .allrep #cadre:not(:first-of-type) .postprofile-info,
-#main.smss .allrep #cadre:not(:first-of-type) .grd, #main.smss .allrep #cadre:not(:first-of-type) fixpro, #main.smss .allrep #cadre:not(:first-of-type) inteprofili, #main.smss .allrep #cadre:not(:first-of-type) .postprofile-name, #main.smss .allrep #cadre:not(:first-of-type) .pcontact, #main.smss .allrep #cadre:not(:first-of-type) .postprofile-info{display:none;}
-#main.weave .allrep #cadre:not(:first-of-type) .post-head, #main.smss .allrep #cadre:not(:first-of-type) .post-head{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
-#main.weave .allrep #cadre:not(:first-of-type):hover .post-head, #main.smss .allrep #cadre:not(:first-of-type):hover .post-head{height:40px;padding: 11px 20px 10px 10px; border: 1px solid var(--borderw);transition:.5s ease-in-out}
+#main.weave .allrep #cadre:not(.firstpost) .grd, #main.weave .allrep #cadre:not(.firstpost) fixpro, #main.weave .allrep #cadre:not(.firstpost) inteprofili, #main.weave .allrep #cadre:not(.firstpost) .postprofile-name, #main.weave .allrep #cadre:not(.firstpost) .pcontact, #main.weave .allrep #cadre:not(.firstpost) .postprofile-info,
+#main.smss .allrep #cadre:not(.firstpost) .grd, #main.smss .allrep #cadre:not(.firstpost) fixpro, #main.smss .allrep #cadre:not(.firstpost) inteprofili, #main.smss .allrep #cadre:not(.firstpost) .postprofile-name, #main.smss .allrep #cadre:not(.firstpost) .pcontact, #main.smss .allrep #cadre:not(.firstpost) .postprofile-info{display:none;}
+#main.weave .allrep #cadre:not(.firstpost) .post-head, #main.smss .allrep #cadre:not(.firstpost) .post-head{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
+#main.weave .allrep #cadre:not(.firstpost):hover .post-head, #main.smss .allrep #cadre:not(.firstpost):hover .post-head{height:40px;padding: 11px 20px 10px 10px; border: 1px solid var(--borderw);transition:.5s ease-in-out}
 
-#main.weave .allrep #cadre:not(:first-of-type) {width:70%; margin:0 auto;background:transparent}
+#main.weave .allrep #cadre:not(.firstpost) {width:70%; margin:0 auto;background:transparent}
 #main.weave .allrep #cadre:first-of-type .postbody {margin-left:0!important;}
 #main.weave .wwpost .postprofile {display:none;}
 #main.weave .wwpost .postbody {background:transparent!important;padding: 0!important;}
-#main.weave .allrep #cadre:not(:first-of-type) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
+#main.weave .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
 
 #main.smss .allrep {display:grid;}
-#main.smss .allrep #cadre:not(:first-of-type) {margin:0;}
-#main.smss .allrep #cadre:not(:first-of-type), #main.weave .allrep #cadre:not(:first-of-type) {background: transparent;}
-#main.smss .allrep #cadre:not(:first-of-type) .cprofili, #main.weave .allrep #cadre:not(:first-of-type) .cprofili{border:0; background:transparent; padding:0;width: fit-content;height: 100%;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center; padding:10px}
-#main.smss .allrep #cadre:not(:first-of-type) ava, #main.weave .allrep #cadre:not(:first-of-type) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);}
-#main.smss .allrep #cadre:not(:first-of-type) ava img, #main.weave .allrep #cadre:not(:first-of-type) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
-#main.smss .allrep #cadre:not(:first-of-type) ava:hover look, #main.weave .allrep #cadre:not(:first-of-type) ava:hover look {display: block; -webkit-transform: scale(1); -webkit-filter: grayscale(100%) brightness(80%) blur(0px);filter: grayscale(100%) brightness(75%) blur(0px);}
-#main.smss .allrep #cadre:not(:first-of-type) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;}
-#main.smss .allrep #cadre:not(:first-of-type) .composter{opacity:1!important}
-#main.smss .allrep #cadre:not(:first-of-type).mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
-#main.smss .allrep #cadre:not(:first-of-type).mymsg .post-head {grid-row: 1/2;}
-#main.smss .allrep #cadre:not(:first-of-type).mymsg .postbody {grid-column: 1/2;grid-row: 2/3;text-align: right!important;}
-#main.smss .allrep #cadre:not(:first-of-type).mymsg .postprofile {grid-column: 2/3;grid-row: 2/3;}
+#main.smss .allrep #cadre:not(.firstpost) {margin:0;}
+#main.smss .allrep #cadre:not(.firstpost), #main.weave .allrep #cadre:not(.firstpost) {background: transparent;}
+#main.smss .allrep #cadre:not(.firstpost) .cprofili, #main.weave .allrep #cadre:not(.firstpost) .cprofili{border:0; background:transparent; padding:0;width: fit-content;height: 100%;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center; padding:10px}
+#main.smss .allrep #cadre:not(.firstpost) ava, #main.weave .allrep #cadre:not(.firstpost) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);}
+#main.smss .allrep #cadre:not(.firstpost) ava img, #main.weave .allrep #cadre:not(.firstpost) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
+#main.smss .allrep #cadre:not(.firstpost) ava:hover look, #main.weave .allrep #cadre:not(.firstpost) ava:hover look {display: block; -webkit-transform: scale(1); -webkit-filter: grayscale(100%) brightness(80%) blur(0px);filter: grayscale(100%) brightness(75%) blur(0px);}
+#main.smss .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;}
+#main.smss .allrep #cadre:not(.firstpost) .composter{opacity:1!important}
+#main.smss .allrep #cadre:not(.firstpost).mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
+#main.smss .allrep #cadre:not(.firstpost).mymsg .post-head {grid-row: 1/2;}
+#main.smss .allrep #cadre:not(.firstpost).mymsg .postbody {grid-column: 1/2;grid-row: 2/3;text-align: right!important;}
+#main.smss .allrep #cadre:not(.firstpost).mymsg .postprofile {grid-column: 2/3;grid-row: 2/3;}
 
 .wprofile {background: var(--fond4); border: 1px solid var(--cadre); border-radius: var(--rad4); display: grid; grid-template: auto / 1fr 1.5fr; gap: 5px; padding: 20px;}
 .wprofile .wtop {margin:-20px;grid-column: 1 / 3;}

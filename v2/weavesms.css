@@ -1,4 +1,4 @@
-#main.weave .pbarre2, #main.smss .pbarre2, #main.weave .allrep #cadre:first-of-type .postprofile, #main.smss .allrep #cadre:first-of-type .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
+#main.weave .pbarre2, #main.smss .pbarre2, #main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
 #main.weave .post-head, #main.smss .post-head{margin-bottom:10px;}
 #main.weave .allrep #cadre:not(.firstpost) .grd, #main.weave .allrep #cadre:not(.firstpost) fixpro, #main.weave .allrep #cadre:not(.firstpost) inteprofili, #main.weave .allrep #cadre:not(.firstpost) .postprofile-name, #main.weave .allrep #cadre:not(.firstpost) .pcontact, #main.weave .allrep #cadre:not(.firstpost) .postprofile-info,
 #main.smss .allrep #cadre:not(.firstpost) .grd, #main.smss .allrep #cadre:not(.firstpost) fixpro, #main.smss .allrep #cadre:not(.firstpost) inteprofili, #main.smss .allrep #cadre:not(.firstpost) .postprofile-name, #main.smss .allrep #cadre:not(.firstpost) .pcontact, #main.smss .allrep #cadre:not(.firstpost) .postprofile-info{display:none;}
@@ -6,7 +6,7 @@
 #main.weave .allrep #cadre:not(.firstpost):hover .post-head, #main.smss .allrep #cadre:not(.firstpost):hover .post-head{height:40px;padding: 11px 20px 10px 10px; border: 1px solid var(--borderw);transition:.5s ease-in-out}
 
 #main.weave .allrep #cadre:not(.firstpost) {width:70%; margin:0 auto;background:transparent}
-#main.weave .allrep #cadre:first-of-type .postbody {margin-left:0!important;}
+#main.weave .allrep #cadre.firstpost .postbody {margin-left:0!important;}
 #main.weave .wwpost .postprofile {display:none;}
 #main.weave .wwpost .postbody {background:transparent!important;padding: 0!important;}
 #main.weave .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}

@@ -98,9 +98,10 @@ text-transform:uppercase;border:1px solid var(--cadre);}
   .poster-more{display:grid;place-items:center;position:relative;line-height:40px;text-transform:uppercase;font-size:12px;font-family:var(--font3);font-weight:700;}
   .poster-more:hover .poster-more-list{display:none;position:absolute;background:var(--fond1);color:#fff;top:0;left:46px;padding:8px;border-radius:3px;opacity:0;max-height:204px;overflow:auto;line-height:30px;}
   
-  .pagination{font-size:0; display:flex; align-items:center;flex-direction: row-reverse;}
+.pagination{font-size:0; display:flex; align-items:center;flex-direction: row-reverse;}
 .pagination>a{float:right;font-size:1rem;margin-top:5px}
 .pagination span:first-of-type {display: inline-flex;margin-right: 14px;}
+.pagination span {font-size: 8px;}
 .pagination span a:link,.pagination span a:visited,.pagination span a:active,.pagination span strong,.pagination span a.pag-img{background-color:var(--fond1);border:1px solid var(--white);color:var(--txt);border-radius:3px;display:block;font-size:1rem;font-weight:400;line-height:36px;margin:0 6px 0 0;height:36px;padding:0;text-align:center;text-decoration:none;width:36px;overflow:hidden}
 .row .pagination{display:inline-block;float:none;font-size:1.2rem;margin-top:0;padding:0 0 0 15px}
 .row .pagination span a:link,.row .pagination span a:visited,.row .pagination span a:active{background-color:#2c353b;color:#FFF;line-height:17px;margin:0 3px;padding:0 6px;text-align:center;text-decoration:none;width:auto}

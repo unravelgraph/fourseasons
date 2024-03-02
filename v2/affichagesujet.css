@@ -121,3 +121,7 @@ form[name=go_page] {} form[name=go_page] table {width: fit-content;} form[name=g
 .fa_dislike_list{border-bottom:1px solid var(--co2)}
 .fa_like_list a{color:var(--co1) !important;font-weight:700}
 .fa_dislike_list a{color:var(--co2) !important;font-weight:700}
+.fa_like_others {background: transparent;padding: 0;margin: 0!important;text-transform: uppercase; font-weight: 700;font-size: 11px;color:var(--co2);}
+.fa_like_tooltip {display:none;}
+.fa_like_others:hover .fa_like_tooltip {display:flex;}
+.fa_like_tooltip a:not(:last-of-type):after {content:',';padding-right:3px;}

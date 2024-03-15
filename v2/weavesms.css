@@ -28,7 +28,7 @@
 .wprofile {background: var(--fond4); border: 1px solid var(--cadre); border-radius: var(--rad4); display: grid; grid-template: auto / 1fr 1.5fr; gap: 5px; padding: 20px;}
 .wprofile .wtop {margin:-20px;grid-column: 1 / 3;}
 .wphotos, .wme, .weave, .wsong, .wfollow, .wfollowing {padding: 16px;}
-.weave {display: flex; justify-content: space-between;}
+.weavetop {display: flex; justify-content: space-between;}
 .wme, .wphotos, .wsong, .wfriends {text-align: justify; border-radius: var(--rad3);}
 .wfollow, .wfollowing {text-align: center; border-radius: var(--rad3);background: var(--fond4);}
 .weave .wicons i.cp {background: var(--fond4); border: 1px solid var(--borderw); border-radius: var(--rad); padding: 6px; margin: 2px;}

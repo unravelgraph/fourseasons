@@ -1,4 +1,4 @@
-/* #main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
+#main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
 #main.weave .post-head, #main.smss .post-head{margin-bottom:10px;}
 #main.weave .allrep #cadre:not(.firstpost) .grd, #main.weave .allrep #cadre:not(.firstpost) fixpro, #main.weave .allrep #cadre:not(.firstpost) inteprofili, #main.weave .allrep #cadre:not(.firstpost) .postprofile-name, #main.weave .allrep #cadre:not(.firstpost) .pcontact, #main.weave .allrep #cadre:not(.firstpost) .postprofile-info,
 #main.smss .allrep #cadre:not(.firstpost) .grd, #main.smss .allrep #cadre:not(.firstpost) fixpro, #main.smss .allrep #cadre:not(.firstpost) inteprofili, #main.smss .allrep #cadre:not(.firstpost) .postprofile-name, #main.smss .allrep #cadre:not(.firstpost) .pcontact, #main.smss .allrep #cadre:not(.firstpost) .postprofile-info{display:none;}
@@ -70,4 +70,4 @@
 .weavepost {background: var(--forum);border:0;border-radius: var(--rad4); overflow:hidden;}
 .wwpost .wtime, .wwchat .wtime {background: var(--forum); padding: 5px 0;border-top-left-radius: var(--rad2); border-top-right-radius: var(--rad2);}
 .ert a, .ert wtag, .wuser {background:var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent!important;}
-.wwpost .smsread, .wwchat .smsread {background: var(--fond7);} */
+.wwpost .smsread, .wwchat .smsread {background: var(--fond7);}

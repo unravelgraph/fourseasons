@@ -4,7 +4,7 @@
 #main.smss .allrep #cadre:not(.firstpost) .grd, #main.smss .allrep #cadre:not(.firstpost) fixpro, #main.smss .allrep #cadre:not(.firstpost) inteprofili, #main.smss .allrep #cadre:not(.firstpost) .postprofile-name, #main.smss .allrep #cadre:not(.firstpost) .pcontact, #main.smss .allrep #cadre:not(.firstpost) .postprofile-info{display:none;}
 #main.weave .allrep #cadre:not(.firstpost) .post-head, #main.smss .allrep #cadre:not(.firstpost) .post-head{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
 #main.weave .allrep #cadre:not(.firstpost):hover .post-head, #main.smss .allrep #cadre:not(.firstpost):hover .post-head{height:40px;padding: 11px 20px 10px 10px; border: 1px solid var(--borderw);transition:.5s ease-in-out}
-#main.weave .pbarre2 {display:grid!important;height: fit-content;grid-template-rows: 0 auto;background: none;border: none;margin: 0;padding-top: 0; gap: 0;}
+#main.weave .pbarre2 {display:grid!important;height: fit-content;grid-template-rows: 0 auto;background: none;border: none;margin: 0;padding: 0;padding-bottom:15px; gap: 0;}
 #main.weave .pbarre2 .primo, #main.weave .pbarre2 .prxp, #main.weave .pbarre2 .pgifa, #main.weave .pbarre2 .prnbmsg, #main.weave .pbarre2 .prpg, #main.weave .success_div {display:none!important;}
 #main.weave .like_div {justify-self: end;}
 

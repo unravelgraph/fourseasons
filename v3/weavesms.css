@@ -1,12 +1,9 @@
-#main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
+#main.weave .pbarre2, #main.smss .pbarre2, #main.weave .allrep #cadre.firstpost .postprofile, #main.smss .allrep #cadre.firstpost .postprofile, #main.weave .signature_div, #main.smss .signature_div {display:none;}
 #main.weave .post-head, #main.smss .post-head{margin-bottom:10px;}
 #main.weave .allrep #cadre:not(.firstpost) .grd, #main.weave .allrep #cadre:not(.firstpost) fixpro, #main.weave .allrep #cadre:not(.firstpost) inteprofili, #main.weave .allrep #cadre:not(.firstpost) .postprofile-name, #main.weave .allrep #cadre:not(.firstpost) .pcontact, #main.weave .allrep #cadre:not(.firstpost) .postprofile-info,
 #main.smss .allrep #cadre:not(.firstpost) .grd, #main.smss .allrep #cadre:not(.firstpost) fixpro, #main.smss .allrep #cadre:not(.firstpost) inteprofili, #main.smss .allrep #cadre:not(.firstpost) .postprofile-name, #main.smss .allrep #cadre:not(.firstpost) .pcontact, #main.smss .allrep #cadre:not(.firstpost) .postprofile-info{display:none;}
 #main.weave .allrep #cadre:not(.firstpost) .post-head, #main.smss .allrep #cadre:not(.firstpost) .post-head{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
 #main.weave .allrep #cadre:not(.firstpost):hover .post-head, #main.smss .allrep #cadre:not(.firstpost):hover .post-head{height:40px;padding: 11px 20px 10px 10px; border: 1px solid var(--borderw);transition:.5s ease-in-out}
-#main.weave .pbarre2 {display:grid!important;height: fit-content;grid-template-rows: 0 auto;background: none;border: none;margin: 0;padding: 0;padding-bottom:15px; gap: 0;}
-#main.weave .pbarre2 .primo, #main.weave .pbarre2 .prxp, #main.weave .pbarre2 .pgifa, #main.weave .pbarre2 .prnbmsg, #main.weave .pbarre2 .prpg, #main.weave .success_div {display:none!important;}
-#main.weave .like_div {justify-self: end;}
 
 #main.weave .allrep #cadre:not(.firstpost) {width:70%; margin:0 auto;background:transparent}
 #main.weave .allrep #cadre.firstpost .postbody {margin-left:0!important;grid-column: 1/3!important;}
@@ -16,7 +13,7 @@
 
 #main.smss .allrep {display:grid;}
 #main.smss .allrep #cadre:not(.firstpost) {margin:0;}
-#main.smss .allrep #cadre:not(.firstpost), #main.weave .allrep #ca  #dice_to_del a:before {content: '+';font-size: 9px;background: var(--gradient);padding: 2px 5px;color: var(--white);font-weight: 900;border-radius: var(--rad3);}dre:not(.firstpost) {background: transparent;}
+#main.smss .allrep #cadre:not(.firstpost), #main.weave .allrep #cadre:not(.firstpost) {background: transparent;}
 #main.smss .allrep #cadre:not(.firstpost) .cprofili, #main.weave .allrep #cadre:not(.firstpost) .cprofili{border:0; background:transparent; padding:0;width: fit-content;height: 100%;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center; padding:10px}
 #main.smss .allrep #cadre:not(.firstpost) ava, #main.weave .allrep #cadre:not(.firstpost) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);}
 #main.smss .allrep #cadre:not(.firstpost) ava img, #main.weave .allrep #cadre:not(.firstpost) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}

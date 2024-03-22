@@ -5,7 +5,7 @@ text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; t
 .ico:hover, .ico:active, .ico.hover { -webkit-transform: rotateY(360deg); 
 transform: rotateY(360deg); -webkit-transition: all 0.8s ease-in-out;  transition: all 0.8s ease-in-out;}
   
-#sort-btn {cursor: pointer;}
+  #sort-btn {cursor: pointer;}
 .sort-form {position: absolute;width:max-content;x-index:1000;display: none;}
 #sort-btn.expanded + .sort-form {display: block;}
 .titmess {font-family: var(--font2);} .titmess a {font-size: 24px!important;}
@@ -109,16 +109,12 @@ text-transform:uppercase;border:1px solid var(--cadre);}
 .pagination span.page-sep{display:none}
 form[name=go_page] {} form[name=go_page] table {width: fit-content;} form[name=go_page] tbody {display: flex; align-items: center;} form[name=go_page] input {height:20px;}
   
-.rep-button,.rep-button:focus,.rep-button:active{cursor:pointer;background:var(--gradient) !important;color:var(--header);padding:4px 8px;border-radius:4px;font-family:var(--font3);font-size:11px;font-weight:600;text-transform:uppercase;border:1px solid var(--fond4)}
+  .rep-button,.rep-button:focus,.rep-button:active{cursor:pointer;background:var(--gradient) !important;color:var(--header);padding:4px 8px;border-radius:4px;font-family:var(--font3);font-size:11px;font-weight:600;text-transform:uppercase;border:1px solid var(--fond4)}
 .rep-button.fa_liked,.rep-button.fa_disliked{overflow:hidden;color:var(--header) !important}
 .rep-button.fa_liked{background:var(--co1) !important}
 .rep-button.fa_disliked{background:var(--co2) !important}
 .rep-button.fa_liked:before,.rep-button.fa_disliked:before{content:"";background-color:var(--fond2)}
 .rep-button i{margin-right:6px}.rep-nb{position:relative;border-radius:100%;margin-left:5px;font-size:11px;padding:0 6px;vertical-align:1px;top:1px;background-color:rgba(255,255,255,0.25)}
-
-.pbarre2 .reaction_div {height: 34px;grid-column: 1/6;grid-row: 2/3;display: grid;grid-template-columns: subgrid; width: 100%; justify-items: center;}
-.success_div {grid-column: 1/3;}
-.like_div {grid-column: 4/6;}
 
 .fa_like_list,.fa_dislike_list{border-radius:var(--rad4);background:var(--fond4);text-transform:uppercase;font-size:11px !important;padding:4px 8px;margin:0;}
 .fa_like_list{border-bottom:1px solid var(--co1)}

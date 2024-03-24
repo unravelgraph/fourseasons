@@ -9,7 +9,9 @@
 #main.weave .allrep #cadre:not(.firstpost) {width:70%; margin:0 auto;}
 #main.weave .allrep #cadre.firstpost .postbody {margin-left:0!important;grid-column: 1/3!important;}
 #main.weave .wwpost .postprofile {display:none;}
-#main.weave .wwpost .postbody {background:transparent!important;padding: 0!important;}
+#main.weave .post:not(:has(.weavepost, .wprofile)) .postprofile {height: 75px;}
+#main.weave .maincontent:not(:has(.weavepost, .wprofile)) {background: var(--forum);padding: 20px;border-radius: var(--rad3);margin-top: 8px;}
+#main.weave .allrep .postbody {background:transparent!important;padding: 0!important;}
 #main.weave .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
 #main.weave .fa_dislike_list, #main.smss .fa_dislike_list {background:var(--forum);}
 

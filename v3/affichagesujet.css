@@ -37,7 +37,7 @@ font-size: 11px; font-weight: 600;display: flex;justify-content: space-between;}
 .pgifa {padding-top: 4px;padding-left: 4px;width: 156px; height: 164px; border: 1px solid var(--fond1); border-radius: var(--rad); background: var(--fond6);margin-top: -45px;} 
 .pgifa img{width: 143px; height: 154px; opacity: 0.6;border-radius: var(--rad);
 filter: grayscale(100%) contrast(80%);object-fit: cover; } 
-.reaction_div {display:flex; gap:5px;}
+.reaction_div {display:flex;flex-direction: row-reverse;gap:5px;}
 .post-top:not(:has(a[href*="/t42-tableau-des-quetes"])) .success_div {display:none;}
 .rep-button,.rep-button:focus,.rep-button:active{cursor:pointer;background:var(--co1) !important;color:var(--header);padding:4px 14px;border-radius:4px;font-family:var(--font3);font-size:11px;font-weight:600;text-transform:uppercase;border:1px solid var(--borderw);margin:0 !important;height:40px;width:max-content;}
 .rep-button.fa_liked,.rep-button.fa_disliked{overflow:hidden;color:var(--header) !important}

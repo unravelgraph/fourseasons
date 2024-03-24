@@ -5,7 +5,7 @@ text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; t
 .ico:hover, .ico:active, .ico.hover { -webkit-transform: rotateY(360deg); 
 transform: rotateY(360deg); -webkit-transition: all 0.8s ease-in-out;  transition: all 0.8s ease-in-out;}
   
-  #sort-btn {cursor: pointer;}
+#sort-btn {cursor: pointer;}
 .sort-form {position: absolute;width:max-content;x-index:1000;display: none;}
 #sort-btn.expanded + .sort-form {display: block;}
 .titmess {font-family: var(--font2);} .titmess a {font-size: 24px!important;}
@@ -93,7 +93,7 @@ text-transform:uppercase;border:1px solid var(--cadre);}
 .postprofile .field-gif, .postprofile .field-inscription, .postprofile .field-messages, .postprofile .field-primogemmes, .postprofile .field-quetes-completees,
 .postprofile .field-rp-du-mois, .postprofile-info .field-pseudo, .postprofile-info .field-inscription, .postprofile-info .field-surnom, .postprofile-info .field-pronoms,
 .postprofile-info .field-avatar, .postprofile-info .field-dialogue, .chara .field-aesthetic .field_label, .chara .profile_field:not(.field-aesthetic, .field-disclaimer, .field-credits), .invt .profile_field:not(.field-espece, .field-magie, .field-activites) {display:none;}
-  .chara .field-aesthetic .field_separator {display:block;}
+.chara .field-aesthetic .field_separator {display:block;}
   
 .poster-list{display:flex;align-items: center;width:fit-content;margin-bottom:5px;padding:10px 0}
 .poster{cursor:pointer;position:relative;width:42px!important;height:42px!important;background: var(--fond1)!important; border: 1px solid var(--cadre);

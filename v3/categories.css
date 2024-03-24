@@ -29,8 +29,8 @@
 .icat1{border-radius:0 var(--rad4) var(--rad4) 0;position:relative;right:0px;top:0;background: var(--fond4);border: 1px solid var(--cadre);border-left: 0;width:50px;height:125px;text-align:right;display:grid;align-items:center;justify-content:center;opacity:.9}
 /* .icat1 img{width:30px;height:30px;object-fit:cover;mix-blend-mode:screen;filter:contrast(1.5) saturate(1.33)} */
 .icat1 .folder_img {width:30px;height:30px;}
-.forum_no_new .folder_img:before, .cat_no_new .folder_img:before {content:"\E059"; font-family: game-icons;}
-.forum_new .folder_img:before, .cat_new .folder_img:before {content:"\E059"; font-family: game-icons;background:var(--gradient);color: transparent;background-clip: text !important;-webkit-background-clip: text !important;-moz-background-clip: text !important;-ms-background-clip: text !important;}
+/* .forum_no_new .folder_img:before, .cat_no_new .folder_img:before {content:"\E059"; font-family: game-icons;}
+.forum_new .folder_img:before, .cat_new .folder_img:before {content:"\E059"; font-family: game-icons;background:var(--gradient);color: transparent;background-clip: text !important;-webkit-background-clip: text !important;-moz-background-clip: text !important;-ms-background-clip: text !important;} */
 
 #c1 .cadrecateh,#c3 .cadrecateh, #invitebloc .cadrecateh{padding:0}
 #c1 .topiclist.forums,#c3 .topiclist.forums{display:grid;column-gap:20px}

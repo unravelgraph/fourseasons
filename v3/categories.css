@@ -1,3 +1,4 @@
+
 .titrecath h2{font-size:64px;font-family:var(--font3);letter-spacing:-4px;text-transform:uppercase;font-weight:700;background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;text-shadow:0 5px 15px var(--fond4);color:var(--fond0);-webkit-text-stroke:.5px var(--header);position:relative;bottom:-30px;text-align:center;z-index:0}
 .fondcateh{backdrop-filter:var(--blur);overflow:hidden;background:var(--forum);border-radius:var(--rad4);padding:10px;margin:20px 0}
 .cadrecateh{width:100%;height:100%;padding:20px 20px 0;border:1px solid var(--white);border-radius:var(--rad4)}

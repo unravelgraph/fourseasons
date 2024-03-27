@@ -29,7 +29,7 @@
 .icat1{border-radius:0 var(--rad4) var(--rad4) 0;position:relative;right:0px;top:0;background: var(--fond4);border: 1px solid var(--cadre);border-left: 0;width:50px;height:125px;text-align:right;display:grid;align-items:center;justify-content:center;opacity:.9;overflow:hidden;}
 /* .icat1 img{width:30px;height:30px;object-fit:cover;mix-blend-mode:screen;filter:contrast(1.5) saturate(1.33)} */
 .icat1 .folder_img {display: grid;place-items: center;font-size: 66px;line-height: 100%;transform: scaleX(-1) rotate(-42deg);position: absolute;bottom: 0;right: -22px;}
-.forum_no_new .folder_img:before, .cat_no_new .folder_img:before, .forum_new .folder_img:before, .cat_new .folder_img:before {content:""; font-family: 'RPGAWESOME';opacity:0.1;}
+.forum_no_new .folder_img:before, .cat_no_new .folder_img:before, .forum_new .folder_img:before, .cat_new .folder_img:before {content:var(--icon_new); font-family: var(--icon_font);opacity:0.1;}
 .forum_new .folder_img:before, .cat_new .folder_img:before {background:var(--gradient);animation: coco-text 4s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;color: transparent;background-clip: text !important;-webkit-background-clip: text !important;-moz-background-clip: text !important;-ms-background-clip: text !important;opacity:1;}
 
 #c1 .cadrecateh,#c3 .cadrecateh, #invitebloc .cadrecateh{padding:0}

@@ -35,9 +35,9 @@
 #c1 .cadrecateh,#c3 .cadrecateh, #invitebloc .cadrecateh{padding:0}
 #c1 .topiclist.forums,#c3 .topiclist.forums{display:grid;column-gap:20px}
 #c1 .descrr,#c3 .descrr{width:280px;margin:10px;margin-right:0;display:inline-grid;align-content:space-between;position:relative}
-#c5 .descrr{width: 97%;margin:10px;display:inline-grid;align-content:space-between;position:relative}
-#c5 .sofocat2{display:none}
-#c5 .gridcat1{grid-template: 47px auto / 100px 185px 464px 50px 120px;}
+#c5 .gridcat1:not(:has(a[href*="/f38-vicio-mundo"])) .descrr{width: 97%;margin:10px;display:inline-grid;align-content:space-between;position:relative}
+#c5 .gridcat1:not(:has(a[href*="/f38-vicio-mundo"])) .sofocat2{display:none}
+#c5 .gridcat1:not(:has(a[href*="/f38-vicio-mundo"])){grid-template: 47px auto / 100px 185px 464px 50px 120px;}
 #c1 .accesrap,#c3 .accesrap, #c5 .accesrap{width:90%;justify-self:end;text-align:right;position:relative;display:flex;flex-wrap:wrap;justify-content:flex-end}
 #c1 .gridcat1:first-of-type,#c3 .gridcat1:first-of-type{position:relative;display:grid;align-items:center;height:100%;overflow:hidden;margin-bottom:0;background:var(--gradient);padding:40px}
 #c1 .gridcat1:first-of-type .forum-sousforum,#c1 .gridcat1:first-of-type .icat1,#c3 .gridcat1:first-of-type .forum-sousforum,#c3 .gridcat1:first-of-type .icat1{display:none}

@@ -12,7 +12,7 @@
 #main.weave .post:not(:has(.weavepost, .wprofile)) .postprofile {height: 75px;}
 #main.weave .allrep .postbody, #main.smss .allrep #cadre:not(.firstpost) .postbody {background:transparent!important;padding: 0!important;}
 #main.weave .maincontent:not(:has(.weavepost, .wprofile)), #main.smss #cadre:not(.firstpost) .maincontent {background: var(--forum);padding: 20px;border-radius: var(--rad3);margin-top: 8px;margin-bottom: 3px;}
-#main.weave .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
+#main.weave .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;grid-column: 1/3;}
 #main.weave .fa_dislike_list, #main.smss #cadre:not(.firstpost) .fa_dislike_list {background:var(--forum);}
 
 #main.smss .allrep {display:grid;}

@@ -7,7 +7,7 @@
  .fgrid1e{display: grid; grid-template-columns: 110px auto 110px; gap: 0px 15px; } 
  .fclan1{border-radius:var(--rad3);background:var(--fond4);border:1px solid var(--cadre);
  width:110px;height:110px;line-height:12px;overflow:hidden;}
- .fclan1b{width:110px;height:110px;display: grid; align-content: center;} 
+ .fclan1b{width:110px;height:110px;display: grid; align-content: center;justify-items: center;} 
  #icoclan1{background:linear-gradient(0deg,var(--co1), var(--co2));color:transparent;font-weight:800;
  background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;line-height:32px;font-size:32px;} 
  .clanname1{margin-top:5px;font-family:var(--font2);font-size:15px;} 

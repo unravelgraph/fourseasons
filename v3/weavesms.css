@@ -23,7 +23,7 @@
 #main.smss .allrep #cadre:not(.firstpost) ava img, #main.weave .allrep #cadre:not(.firstpost) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
 #main.smss .allrep #cadre:not(.firstpost) ava:hover look, #main.weave .allrep #cadre:not(.firstpost) ava:hover look {display: block; -webkit-transform: scale(1); -webkit-filter: grayscale(100%) brightness(80%) blur(0px);filter: grayscale(100%) brightness(75%) blur(0px);}
 #main.smss .allrep #cadre:not(.firstpost) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;}
-#main.smss .allrep #cadre:not(.firstpost) .composter{opacity:1!important}
+#main.smss .allrep #cadre:not(.firstpost) .composter{display:flex!important;}
 #main.smss .allrep #cadre:not(.firstpost).mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
 #main.smss .allrep #cadre:not(.firstpost).mymsg .post-top {grid-row: 1/2;}
 #main.smss .allrep #cadre:not(.firstpost).mymsg .postbody {grid-column: 1/2;grid-row: 2/3;text-align: right!important;}

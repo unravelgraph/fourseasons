@@ -28,11 +28,12 @@
 
 
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep {display:grid;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:not(:has(#firstpost)) {gap: 0 20px;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {margin:0;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:has(#firstpost) .postbody{margin-left:0!important}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;max-width: 90%;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .composter{display:flex!important;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;gap:0 10px;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .composter{display:flex!important;padding-right: 20px;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post-top {grid-row: 1/2;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postbody {grid-column: 1/2;grid-row: 2/3;text-align: right!important;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postprofile {grid-column: 2/3;grid-row: 2/3;}

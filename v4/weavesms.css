@@ -28,7 +28,7 @@
 
 
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep {display:grid;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:not(:has(#firstpost)) {gap: 0 20px;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:not(:has(#firstpost)) {gap: 0 10px;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {margin:0;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:has(#firstpost) .postbody{margin-left:0!important}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;max-width: 90%;}

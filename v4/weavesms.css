@@ -17,18 +17,19 @@
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava,
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);padding: 0;}
+#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost, .post .weavepost)),
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:not(:has(#firstpost)) {gap: 0 10px;}
 
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {background: transparent;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) {width:70%; margin:0 auto;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:has(.post #firstpost) .postbody {margin-left:0!important;grid-column: 1/3!important;}
-#main-content:has(.pagev a.nav[href*="weave"]) .post:not(:has(.weavepost, .wprofile)) .postprofile {height: 75px;}
-#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili{border:0; background:transparent; padding:0;width: fit-content;height: 100%;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center; padding:10px}
+#main-content:has(.pagev a.nav[href*="weave"]) .post:not(:has(.weavepost, .wprofile)) .postprofile {height: fit-content;}
+#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili{border:0; background:transparent; padding:0;width: 55px;height: 55px;overflow:hidden;border-radius: var(--rad4) 0 0 var(--rad4);display:grid;place-items:center;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;}
 #main-content:has(.pagev a.nav[href*="weave"]) .post:has(.weavepost) .postbody {grid-column: 1/3;}
 
 
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep {display:grid;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:not(:has(#firstpost)) {gap: 0 10px;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {margin:0;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:has(#firstpost) .postbody{margin-left:0!important}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;max-width: 90%;}

@@ -9,14 +9,14 @@
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .post-top{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:hover .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)):hover .post-top{height:40px;transition:.5s ease-in-out;margin-bottom: 20px;width: 100%;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep .postbody, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody {background:transparent!important;padding: 0!important;}
-#main-content:has(.pagev a.nav[href*="weave"]) .maincontent:not(:has(.weavepost, .wprofile)), #main-content:has(.pagev a.nav[href*="chatting"]) #cadre:not(:has(.post #firstpost)) .maincontent {background: var(--forum);padding: 20px;border-radius: var(--rad3);margin-top: 8px;margin-bottom: 3px;}
+#main-content:has(.pagev a.nav[href*="weave"]) .maincontent:not(:has(.weavepost, .wprofile)), #main-content:has(.pagev a.nav[href*="chatting"]) #cadre:not(:has(.post #firstpost)) .maincontent {background: var(--forum);padding: 20px;border-radius: var(--rad3);}
 #main-content:has(.pagev a.nav[href*="weave"]) .fa_dislike_list, #main-content:has(.pagev a.nav[href*="chatting"]) #cadre:not(:has(.post #firstpost)) .fa_dislike_list {background:var(--forum);}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava:hover look,
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava:hover look{display: block; -webkit-transform: scale(1); -webkit-filter: grayscale(100%) brightness(80%) blur(0px);filter: grayscale(100%) brightness(75%) blur(0px);}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava img,
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava,
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);padding: 0;}
 
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {background: transparent;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) {width:70%; margin:0 auto;}
@@ -32,7 +32,7 @@
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre .post:has(#firstpost) .postbody{margin-left:0!important}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .postbody{margin:0!important; background:var(--forum); border-radius: var(--rad4); padding:20px;padding-right:40px;width: fit-content;max-width: 90%;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .composter{display:flex!important;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;gap:0 10px;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post-top {grid-row: 1/2;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postbody {grid-column: 1/2;grid-row: 2/3;text-align: right!important;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postprofile {grid-column: 2/3;grid-row: 2/3;}

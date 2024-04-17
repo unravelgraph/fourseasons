@@ -1,6 +1,6 @@
-#main-content:has(.pagev a.nav[href*="weave"]) .pbarre2, #main-content:has(.pagev a.nav[href*="chatting"]) .pbarre2, #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:has(.post #firstpost) .postprofile, 
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:has(.post #firstpost) .postprofile, #main-content:has(.pagev a.nav[href*="weave"]) .signature_div, #main-content:has(.pagev a.nav[href*="chatting"]) .signature_div {display:none;}
-#main-content:has(.pagev a.nav[href*="weave"]) .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .post-top{margin-bottom:10px;}
+#main-content:has(.pagev a.nav[href*="weave"]) .pbarre2, #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:has(.post #firstpost) .postprofile, #main-content:has(.pagev a.nav[href*="weave"]) .post:has(.weavepost) .postprofile,
+#main-content:has(.pagev a.nav[href*="weave"]) .signature_div, #main-content:has(.pagev a.nav[href*="weave"]) .post-top, 
+#main-content:has(.pagev a.nav[href*="chatting"]) .pbarre2, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:has(.post #firstpost) .postprofile, #main-content:has(.pagev a.nav[href*="chatting"]) .signature_div {display:none;}#main-content:has(.pagev a.nav[href*="chatting"]) .post-top{margin-bottom:10px;}
 
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .grd, #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) fixpro,
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) inteprofili, #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .postprofile-name,

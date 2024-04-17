@@ -35,9 +35,10 @@
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .composter{display:flex!important;padding-right: 20px;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post{grid-template: auto auto auto / 1fr auto;justify-items: end;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .post-top {grid-row: 1/2;}
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postbody {grid-column: 1/2;grid-row: 2/3;direction:rtl;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postbody {grid-column: 1/2;grid-row: 2/3;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .maincontent{direction:rtl;}
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre.mymsg .postprofile {grid-column: 2/3;grid-row: 2/3;}
-.mymsg .composter {justify-content: flex-end;}
+.mymsg .composter {justify-content: flex-end;direction: ltr;}
 
 
 

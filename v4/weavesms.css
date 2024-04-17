@@ -11,7 +11,7 @@
 /*#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .post-top{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)):hover .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)):hover .post-top{height:40px;transition:.5s ease-in-out}*/
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .post-top{height:0px; padding:0; border:0; overflow:hidden;transition:.5s ease-in-out}
-#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:hover .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)):hover .post-top{height:40px;transition:.5s ease-in-out}
+#main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:hover .post-top, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)):hover .post-top{height:40px;transition:.5s ease-in-out;margin-bottom: 20px;}
 
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {background: transparent;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) {width:70%; margin:0 auto;}

@@ -16,7 +16,7 @@
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava img,
 #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava img, .smsavatar img{border-radius: var(--rad);object-fit: cover;padding: 6px;width: 54px;height: 54px;opacity: 0.8;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) ava,
-#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) ava, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);padding: 0;}
+#main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) .cprofili, .smsavatar {width: 55px;height: 55px;background: var(--fond4);border: 1px solid var(--cadre);border-radius: var(--rad);padding: 0;}
 
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre, #main-content:has(.pagev a.nav[href*="chatting"]) .allrep #cadre:not(:has(.post #firstpost)) {background: transparent;}
 #main-content:has(.pagev a.nav[href*="weave"]) .allrep #cadre:not(:has(.post #firstpost)) {width:70%; margin:0 auto;}

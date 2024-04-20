@@ -29,7 +29,7 @@
 .fondcateh:not(#c1,#c3) .gridcat1:has(.sofocat2:empty){grid-template: 1fr 40px 40px 40px/ 170px 1fr 120px;}
 .fondcateh:not(#c1,#c3) .gridcat1:has(.sofocat2:empty) .descrr{grid-row: 2 / 5;height: 95%;}
 .sofocat2{grid-row:4/5;grid-column: 2/3;}
-.sofocat2, #c1 .accesrap,#c3 .accesrap, #c5 .accesrap{position:relative;display:flex;flex-wrap:wrap;flex-end;align-items: flex-end;gap:4px;margin-top: 10px;}
+.sofocat2, .accesrap{position:relative;display:flex;flex-wrap:wrap;flex-end;align-items: flex-end;gap:4px;margin-top: 10px;}
 .catlieu1{grid-row: 1/5;grid-column: 3/4;border:1px solid var(--cadre);width:120px;height:100%;border-radius:var(--rad2);}
 .cl1{background:var(--fond2);border-radius:var(--rad2);width:100%;height:100%;position:relative;}
 .cl1 img{width:100%;height:100%;object-fit:cover;position:relative;opacity:.5;-webkit-filter:grayscale(100%);border-radius:var(--rad2);-webkit-transition:opacity .35s;transition:opacity .35s;filter:grayscale(100%)}

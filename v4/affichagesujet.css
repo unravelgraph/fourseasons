@@ -1,3 +1,4 @@
+.post:has(#firstpost, #adminpost){grid-template: auto auto auto / 1fr;}
 .post:has(#firstpost, #adminpost) .postprofile, .post:has(#firstpost, #adminpost) .pbarre2{display:none!important;}
 .post:has(#firstpost, #adminpost) .postbody{margin-left:0!important;}
 .post:has(#firstpost, #adminpost) .post-top{margin-bottom:20px!important;}

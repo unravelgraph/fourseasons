@@ -37,6 +37,7 @@
 .cl1:hover img{opacity:.8;-webkit-filter:grayscale(0%);filter:grayscale(0%)}
 .cl1:hover .hey ms{-webkit-transform:translateY(-50%);transform:translateY(-50%);opacity:0}
 .lastbloc1, .sofocat2, .headbloc{z-index:2;}
+a.forumtitle{border-bottom:1px solid var(--cadre);}
   
 .forum_new .cl1:before, .cat_new .cl1:before{content:'';width:100%;height:100%;background:var(--gradientdl);display:block;position:absolute;top:0;left:0;z-index:1;border-radius:var(--rad2);opacity: 0.7;mask-image: linear-gradient(to bottom, transparent, black);mix-blend-mode: overlay;}
 .forum_new .gradient-cate:before, .cat_new .gradient-cate:before{content:var(--icon_new);font-family:var(--icon_font);font-size:2.8em;line-height:100%;background:var(--gradient);color: transparent;background-clip: text !important;-webkit-background-clip: text !important;
@@ -61,6 +62,7 @@ background:var(--gradientdl);border-radius:var(--rad2);mask-image: linear-gradie
 #c1 .gridcat1:has(a.forumtitle[href*="guild"]) .titcat1:before,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1:before{display:block;font-family:game-icons;font-weight:800;background-clip:text;font-size:20px;line-height:200%;color:rgba(var(--fond100),.9)}
 #c1 .gridcat1:has(a.forumtitle[href*="guild"]) .imgbacguide,#c3 .gridcat1:first-of-type .imgbacguide{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:darken;opacity:.3}
 #c1 .gridcat1:not(:has(a.forumtitle[href*="guild"])) .sofocat2,#c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) .sofocat2, #c5 .gridcat1:not(:has(a.forumtitle[href*="vicio-mundo"])) .sofocat2{display:none}{display:none}
+a.forumtitle[href*="guild"], a.forumtitle[href*="guidebook"]{border:none;}
 #c1 .accesrap,#c3 .accesrap, #c5 .accesrap{grid-row: 4/5;}
   
 #c3 .topiclist.forums{grid-template:repeat(3,auto) / 390px auto}

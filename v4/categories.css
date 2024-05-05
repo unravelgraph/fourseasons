@@ -41,8 +41,8 @@
 .forum_new .cl1:before, .cat_new .cl1:before{content:'';width:100%;height:100%;background:var(--gradientdl);display:block;position:absolute;top:0;left:0;z-index:1;border-radius:var(--rad2);opacity: 0.7;mask-image: linear-gradient(to bottom, transparent, black);mix-blend-mode: overlay;}
 .forum_new .gradient-cate:before, .cat_new .gradient-cate:before{content:var(--icon_new);font-family:var(--icon_font);font-size:2.8em;line-height:100%;background:var(--gradient);color: transparent;background-clip: text !important;-webkit-background-clip: text !important;
   position:absolute; height:100%; display:grid;place-items: center;right: -16px;z-index: 2;}
-.forum_new:has(a.forumtitle[href*="guilde"]) .gradient-cate:before,
-.cat_new:has(a.forumtitle[href*="guilde"]) .gradient-cate:before {right: 30px;z-index: 3;}
+.forum_new:has(a.forumtitle[href*="guild"]) .gradient-cate:before,
+.cat_new:has(a.forumtitle[href*="guild"]) .gradient-cate:before {right: 30px;z-index: 3;}
 .forum_new .avasp1:after, .cat_new .avasp1:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;
 background:var(--gradientdl);border-radius:var(--rad2);mask-image: linear-gradient(-45deg,transparent 25%, 75%, black);opacity:0.7;}
 .forum_new #avacat1 img, .cat_new #avacat1 img {filter:grayscale(0%);}
@@ -51,33 +51,33 @@ background:var(--gradientdl);border-radius:var(--rad2);mask-image: linear-gradie
 #invitebloc .cadrecateh{padding:0}
 #c1 .cadrecateh, #c3 .cadrecateh {padding: 20px;}
 #c1 .topiclist.forums,#c3 .topiclist.forums{display:grid;gap:0 20px;margin-bottom:-20px;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]),#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]){position:relative;top: -20px;display:flex;flex-direction:column;gap: 20px;width: calc(100% + 20px);height: calc(100% + 20px);overflow:hidden;margin-bottom:0;background:var(--gradient);padding:40px}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .forum-sousforum,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .forum-sousforum,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .gradient-cate{display:none}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .headbloc,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .headbloc{position:relative;z-index:2;text-align:center!important;grid-row:1/2;grid-column:1/3}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .descricat2,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .descricat2{display: flex;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]),#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]){position:relative;top: -20px;display:flex;flex-direction:column;gap: 20px;width: calc(100% + 20px);height: calc(100% + 20px);overflow:hidden;margin-bottom:0;background:var(--gradient);padding:40px}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .forum-sousforum,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .forum-sousforum,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .gradient-cate{display:none}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .headbloc,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .headbloc{position:relative;z-index:2;text-align:center!important;grid-row:1/2;grid-column:1/3}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .descricat2,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .descricat2{display: flex;}
 #c1 .descricat2,#c3 .descricat2{gap:0;grid-column: 2/3;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .descrr,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .descrr{position: relative;height:auto;color:rgba(var(--fond100),.9);font-weight:500;gap:20px}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .titcat1 a b5,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1 a b5{color:rgba(var(--fond100),.9)!important}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .titcat1:before,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1:before{display:block;font-family:game-icons;font-weight:800;background-clip:text;font-size:20px;line-height:200%;color:rgba(var(--fond100),.9)}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .imgbacguide,#c3 .gridcat1:first-of-type .imgbacguide{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:darken;opacity:.3}
-#c1 .gridcat1:not(:has(a.forumtitle[href*="guilde"])) .sofocat2,#c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) .sofocat2, #c5 .gridcat1:not(:has(a.forumtitle[href*="vicio-mundo"])) .sofocat2{display:none}{display:none}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .descrr,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .descrr{position: relative;height:auto;color:rgba(var(--fond100),.9);font-weight:500;gap:20px}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .titcat1 a b5,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1 a b5{color:rgba(var(--fond100),.9)!important}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .titcat1:before,#c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1:before{display:block;font-family:game-icons;font-weight:800;background-clip:text;font-size:20px;line-height:200%;color:rgba(var(--fond100),.9)}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .imgbacguide,#c3 .gridcat1:first-of-type .imgbacguide{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:darken;opacity:.3}
+#c1 .gridcat1:not(:has(a.forumtitle[href*="guild"])) .sofocat2,#c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) .sofocat2, #c5 .gridcat1:not(:has(a.forumtitle[href*="vicio-mundo"])) .sofocat2{display:none}{display:none}
 #c1 .accesrap,#c3 .accesrap, #c5 .accesrap{grid-row: 4/5;}
   
 #c3 .topiclist.forums{grid-template:repeat(3,auto) / 390px auto}
 #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]){left:-20px;grid-row:1/5;grid-column:1/2;border-radius:var(--rad4) 0 0 var(--rad4);}
 #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .titcat1:before{content:'\EC78'}
 #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .lastbloc1{display:none}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .headbloc, #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .headbloc{display:grid;justify-content: center;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .headbloc, #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .headbloc{display:grid;justify-content: center;}
 #c3 .gridcat1:not(:has(.accesrap)) .descrr{height:100%;grid-row: 2/5;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .accesrap, #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .accesrap{margin-top:20px;justify-content: end;}
-#c1 .gridcat1:not(:has(a.forumtitle[href*="guilde"])), #c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) {grid-template: repeat(4, auto) / 170px 1fr;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .accesrap, #c3 .gridcat1:has(a.forumtitle[href*="guidebook"]) .accesrap{margin-top:20px;justify-content: end;}
+#c1 .gridcat1:not(:has(a.forumtitle[href*="guild"])), #c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) {grid-template: repeat(4, auto) / 170px 1fr;}
 
 #c1 .topiclist.forums{grid-template:repeat(3,auto) / auto 390px}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]){right:0;grid-row:1/5;grid-column:2/3;border-radius:0 var(--rad4) var(--rad4) 0;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .titcat1:before{content:'\EC80'}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .gradient-cate {order: 3;display: flex;justify-content: center;gap:20px;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .lastbloc1 {background: var(--fond4);width: 170px;border: 1px solid var(--cadre);}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .avacati1 {margin-top:0;}
-#c1 .gridcat1:has(a.forumtitle[href*="guilde"]) .avacat1{display:none}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]){right:0;grid-row:1/5;grid-column:2/3;border-radius:0 var(--rad4) var(--rad4) 0;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .titcat1:before{content:'\EC80'}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .gradient-cate {order: 3;display: flex;justify-content: center;gap:20px;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .lastbloc1 {background: var(--fond4);width: 170px;border: 1px solid var(--cadre);}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .avacati1 {margin-top:0;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]) .avacat1{display:none}
   
 #c5 .accesrap{grid-column: 1/3;}

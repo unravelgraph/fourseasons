@@ -1,7 +1,7 @@
-.post:has(#firstpost) .postprofile{display:none;}
-.post:has(#firstpost) .pbarre2{display:none;}
-.post:has(#firstpost) .postbody{margin-left:0;}
-.post:has(#firstpost) .post-top{margin-bottom:20px;}
+.post:has(#firstpost) .postprofile{display:none!important;}
+.post:has(#firstpost) .pbarre2{display:none!important;}
+.post:has(#firstpost) .postbody{margin-left:0!important;}
+.post:has(#firstpost) .post-top{margin-bottom:20px!important;}
 
 .ico {left:70px;position: absolute;-webkit-perspective: 50em;  perspective: 50em;color:var(--header)!important;
 text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; transition-duration: 0.7s; 

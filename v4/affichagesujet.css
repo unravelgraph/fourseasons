@@ -1,3 +1,6 @@
+.post:has(#firspost) .postprofile, .post:has(#firstpost) .pbarre2 {display:none;}
+.post:has(#firspost) .postbody{margin-left:0;}
+
 .ico {left:70px;position: absolute;-webkit-perspective: 50em;  perspective: 50em;color:var(--header)!important;
 text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; transition-duration: 0.7s; 
 -moz-transition-duration: .7s; -webkit-transition-duration: .7s; 

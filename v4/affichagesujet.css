@@ -51,6 +51,7 @@ filter: grayscale(100%) contrast(80%);object-fit: cover; }
 .rep-button.fa_liked:before,.rep-button.fa_disliked:before{content:"";background-color:var(--fond2)}
 .rep-button i{margin-right:6px}.rep-nb{position:relative;border-radius:100%;margin-left:5px;font-size:11px;padding:0 6px;vertical-align:1px;top:1px;background-color:rgba(255,255,255,0.25)}
 
+.postprofile .recomp{display: flex;flex-wrap: wrap;justify-content: center;}
 .cprofili {width:222px;height:347px;border: 1px solid var(--cadre);padding:5px;background: var(--fond4);border-radius:var(--rad4);}
 .profili ava {border-radius:var(--rad3);position: relative; display: block; width: 209px; height: 335px; overflow: hidden;}
 .profili ava look {display: block;width: 210px;height: 335px;object-fit:cover;transition: all .5s ease-in-out 0s;}

@@ -73,7 +73,7 @@ background:var(--gradientdl);border-radius:var(--rad2);mask-image: linear-gradie
 #c1 .gridcat1:not(:has(a.forumtitle[href*="guild"])), #c3 .gridcat1:not(:has(a.forumtitle[href*="guidebook"])) {grid-template: repeat(4, auto) / 170px 1fr;}
 
 #c1 .topiclist.forums{grid-template:repeat(3,auto) / auto 390px}
-#c1 .gridcat1:has(a.forumtitle[href*="guild"]){right:0;grid-row:1/5;grid-column:2/3;border-radius:0 var(--rad4) var(--rad4) 0;}
+#c1 .gridcat1:has(a.forumtitle[href*="guild"]){right:0;grid-row:1/4;grid-column:2/3;border-radius:0 var(--rad4) var(--rad4) 0;}
 #c1 .gridcat1:has(a.forumtitle[href*="guild"]) .titcat1:before{content:'\EC80'}
 #c1 .gridcat1:has(a.forumtitle[href*="guild"]) .gradient-cate {order: 3;display: flex;justify-content: center;gap:20px;}
 #c1 .gridcat1:has(a.forumtitle[href*="guild"]) .lastbloc1 {background: var(--fond4);width: 170px;border: 1px solid var(--cadre);}

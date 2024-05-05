@@ -1,0 +1,127 @@
+.ico {left:70px;position: absolute;-webkit-perspective: 50em;  perspective: 50em;color:var(--header)!important;
+text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; transition-duration: 0.7s; 
+-moz-transition-duration: .7s; -webkit-transition-duration: .7s; 
+-o-transition-duration: .7s; -webkit-transform: rotateY(0);  transform: rotateY(0);} 
+.ico:hover, .ico:active, .ico.hover { -webkit-transform: rotateY(360deg); 
+transform: rotateY(360deg); -webkit-transition: all 0.8s ease-in-out;  transition: all 0.8s ease-in-out;}
+  
+#sort-btn {cursor: pointer;}
+.sort-form {position: absolute;width:max-content;x-index:1000;display: none;}
+#sort-btn.expanded + .sort-form {display: block;}
+.titmess {font-family: var(--font2);} .titmess a {font-size: 24px!important;}
+.pagev {margin: 1px;line-height: 21px;background: rgba(var(--fond100),0.4);border-radius: 3px;padding: 0px 6px;
+        font-family: var(--font3);font-size: 11px;font-weight: 700;letter-spacing: -0.5px;margin: 5px;text-transform:uppercase;}
+.newt, .rept {text-transform: uppercase;font-size: 13px!important;font-family: var(--font3);font-weight: 700;padding: 0 4px;}
+  
+  /* post */
+.post {display: grid;grid-template: auto auto auto / auto 1fr;}
+.post-top {grid-column: 1/3;display:flex;gap:4px;height: 40px;}
+.post-head {border-radius: var(--rad4); border: 1px solid var(--borderw); width: 100%; height: 40px;text-transform: uppercase; 
+padding: 11px 20px 10px 10px; background: var(--gradient); color: var(--header); font-family: var(--font3);
+font-size: 11px; font-weight: 600;display: flex;justify-content: space-between;}
+.plien {height:18px; margin: 0 3px; padding: 0px 8px; background: var(--fond4); border: 1px solid var(--fond4); border-radius: 4px;}
+.isonline{display:none;}
+.post.online .isonline {display: block;}
+.plien a{top: -1px;position: relative;}
+.post-head a, .plien a{color:var(--header)!important;}  
+.pbarre2 {grid-column:1 / 3;border-radius:var(--rad4);background:var(--fond4);border:1px solid var(--cadre);width:100%;padding:15px;margin:9px 0 21px 0;overflow:hidden;height:85px;position:relative;display:grid;grid-template:auto/ repeat(5,1fr);justify-items:center;align-items:center;}
+.pbarre2 .primo, .pbarre2 .prxp, .pbarre2 .prnbmsg, .pbarre2 .prpg {position: relative;}
+.pbarre2 .field_content,.pbarre2 .profil_label, .pbarre2 .protitle{text-transform:uppercase;font-family:var(--font3)}
+.pbarre2 .field_content{font-size:19px;line-height:121%;text-align:center;padding:2px;background:var(--gradient);color:transparent;font-weight:800;background-clip:text;-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text}
+.pbarre2 .protitle{font-size:14px!important;font-weight:600!important;padding:0 8px;background:var(--fond2);border:1px solid var(--fond1);border-radius:4px;color:var(--txt)!important;text-align:center;}
+.pbarre2 .field_label, .pbarre2 .field_separator, .pbarre2 .primo .profile_field:not(.field-primogemmes), .pbarre2 .prxp .profile_field:not(.field-quetes-completees), .pbarre2 .pgif .profile_field:not(.field-gif), .pbarre2 .prnbmsg .profile_field:not(.field-messages), .pbarre2 .prpg .profile_field:not(.field-rp-du-mois) {display:none;}
+.prxp .field_content {display: block; filter:var(--gauge);}
+.primo:hover:before{filter: grayscale(0%) contrast(1);}
+.primo:before {content:' ';opacity:.8;background-size:cover;background-image:url(https://i.imgur.com/5IBNUKQ.png);transition:all .5s ease-in-out 0;width:30px;height:30px;mix-blend-mode:revert;position:absolute;left:-2px;top:-5px;filter:grayscale(1) contrast(1.2);}
+.primo {padding-left: 30px;}
+.pgifa {padding-top: 4px;padding-left: 4px;width: 156px; height: 164px; border: 1px solid var(--fond1); border-radius: var(--rad); background: var(--fond6);margin-top: -56px;} 
+.pgifa img{width: 143px; height: 154px; opacity: 0.6;border-radius: var(--rad);
+filter: grayscale(100%) contrast(80%);object-fit: cover; } 
+.reaction_div {display:flex;flex-direction: row-reverse;gap:5px;}
+.post-top:not(:has(a[href*="-tableau-des-quetes"])) .success_div {display:none;}
+.rep-button,.rep-button:focus,.rep-button:active{cursor:pointer;background:var(--co1) !important;color:var(--header);padding:4px 14px;border-radius:4px;font-family:var(--font3);font-size:11px;font-weight:600;text-transform:uppercase;border:1px solid var(--borderw);margin:0 !important;height:40px;width:max-content;}
+.rep-button.fa_liked,.rep-button.fa_disliked{overflow:hidden;color:var(--header) !important}
+.rep-button.fa_liked{background:var(--co1) !important}
+.rep-button.fa_disliked{background:var(--co2) !important}
+.rep-button.fa_liked:before,.rep-button.fa_disliked:before{content:"";background-color:var(--fond2)}
+.rep-button i{margin-right:6px}.rep-nb{position:relative;border-radius:100%;margin-left:5px;font-size:11px;padding:0 6px;vertical-align:1px;top:1px;background-color:rgba(255,255,255,0.25)}
+
+.cprofili {width:222px;height:347px;border: 1px solid var(--cadre);padding:5px;background: var(--fond4);border-radius:var(--rad4);}
+.profili ava {border-radius:var(--rad3);position: relative; display: block; width: 209px; height: 335px; overflow: hidden;}
+.profili ava look {display: block;width: 210px;height: 335px;object-fit:cover;transition: all .5s ease-in-out 0s;}
+.profili ava:hover look {display: block; -webkit-transform: scale(1.3); transition: all .5s ease-in-out 0s;
+ -webkit-filter: grayscale(100%) brightness(80%) blur(3px);filter: grayscale(100%) brightness(75%) blur(3px);}
+.profili ava .grd { position: absolute; right: 0; bottom: 0; left: 0; display: block; width: 210px; height: 335px;
+ transition: all .5s ease-in-out 0s;}
+.profili ava .grd::after {content: '';position: absolute;bottom: 0; left: 0; right: 0;
+width: 210px;height:30px;transition: all .5s ease-in-out 0s;background:linear-gradient(0deg, var(--grey), transparent 100%);}
+.profili ava:hover .grd::after {height: 500px;transition: all .5s ease-in-out 0s;}
+.profili ava fixpro {position: absolute;top: 100%;display: block;width: 210px;height: 100%;transition: all .5s ease-in-out 0s;}
+.profili ava:hover fixpro {top: 0;transition: all .5s ease-in-out 0s;}
+.profili ava:hover inteprofili {opacity: 1;transition: all .5s ease-in-out 1s;}
+.profili ava inteprofili {position: absolute;top: 0; bottom: 0; left: 0; right: 0;transition: all .5s ease-in-out 0s;font-size: 13px;
+padding: 10px;margin:10px;overflow:hidden;opacity: 0;border-radius:var(--rad3);border: 1px solid var(--fond4);color: var(--header);
+background:rgba(0,0,0,.1);display:grid;}   
+.rang {font-family:var(--font0);text-transform:uppercase;font-size:9px;letter-spacing:0.5px;font-weight:600;text-align: center;}
+.postprofile-rank {border:none!important;}                     
+.pirl {text-align:left;text-transform:uppercase;font-size:11px;font-weight:500;line-height:140%;margin:10px 0px; height: 184px;display: grid;align-items: center;} 
+.pirl .profile_field .field_label {font-size:12px;font-weight:700!important;font-family:var(--font3)!important;text-transform:uppercase;font-family:var(--font3);color:var(--co1);}
+.pirl .profile_field, .pirl .field_separator {display:none;}
+.pirl .field-inscription, .pirl .field-surnom, .pirl .field-pronoms, .pirl .field-avatar, .pirl .field-dialogue {display: grid!important;align-items: center; margin-bottom:10px;}
+.pgif {padding-top: 4px;padding-left: 4px;width: 170px; height: 170px; border: 1px solid var(--fond1); border-radius: var(--rad); background: var(--fond6);margin-top: -50px;} 
+.pgif img{width: 160px; height: 160px; opacity: 0.3;border-radius: var(--rad);
+filter: grayscale(100%) contrast(80%);object-fit: cover; } 
+
+.psdp {font-family:var(--font2);font-size:21px;text-transform:lowercase;color:var(--co1);text-align: center;}
+.psdp .profile_field:not(.field-pseudo), .psdp .field-pseudo span:not(.field_content) {display:none;}
+.pseudo {margin:10px 0px 5px 0px;width:222px;border-radius: var(--rad4); background: var(--fond4); padding: 7px 5px 5px 5px;font-size:14px;
+ border: 1px solid var(--cadre);text-align:center;font-family:var(--font3);letter-spacing:0.5px;text-transform:uppercase;}
+.pcontact {margin:-2px 0px -7px 0px;text-align:center;width:222px;}
+.pcontact img{opacity: 0.8; filter: grayscale(1) contrast(1.2); width: 35px;}
+.infospro {position:relative;z-index:2;background:var(--fond4);border:1px solid var(--cadre);
+font-size:12px;border-radius:var(--rad4);height:170px;width:222px;margin-top:5px;margin-bottom:30px;} 
+#ogpro {padding: 2px 0;position:absolute;bottom:0;width:107px;z-index:3;border-radius: 4px;background:var(--gradient);
+color: var(--header)!important; font-family: var(--font3);font-size: 11px; font-weight: 600;text-align: center;
+text-transform:uppercase;border:1px solid var(--cadre);}                        
+.chara, .inv {margin:8px 0px 5px 0px;padding: 0px 8px 3px 8px;max-width: 212px; width: 212px; height: 150px;
+ overflow-y: auto; overflow-x: hidden;text-align:justify;line-height:130%;}     
+.infospro .contenu-onglet2 .field_label {text-transform:uppercase;font-size:11px;font-weight:700;font-family:var(--font3);color:var(--co1);}
+.profile_field img{max-width:168px;}     
+.chara dl.codebox {margin:5px 0px -10px 0px;font-size:12px!important;}    
+.chara hr{border-bottom: 1px solid var(--borderg);}  
+.postprofile .field-gif, .postprofile .field-inscription, .postprofile .field-messages, .postprofile .field-primogemmes, .postprofile .field-quetes-completees,
+.postprofile .field-rp-du-mois, .postprofile-info .field-pseudo, .postprofile-info .field-inscription, .postprofile-info .field-surnom, .postprofile-info .field-pronoms,
+.postprofile-info .field-avatar, .postprofile-info .field-dialogue, .chara .field-aesthetic .field_label, .chara .profile_field:not(.field-aesthetic, .field-disclaimer, .field-credits), .invt .profile_field:not(.field-espece, .field-magie, .field-activites) {display:none;}
+.chara .field-aesthetic .field_separator {display:block;}
+  
+.poster-list{display:flex;align-items: center;width:fit-content;margin-bottom:5px;padding:10px 0}
+.poster{cursor:pointer;position:relative;width:42px!important;height:42px!important;background: var(--fond1)!important; border: 1px solid var(--cadre);
+  padding: 5.5px; border-radius:var(--rad);transform: translateX(-20px)!important; margin: 0px -4px;} 
+.poster:before{content:"";position:absolute;display:block;width:30px!important;height:30px!important;background:var(--poster-avatar);background-size: cover; 
+  border:none!important;background-position: center center;opacity:0.8;border-radius:var(--rad); filter:grayscale(.3)}
+.poster a{display:block;height:100%}
+.poster-count{margin-left:5px;line-height:40px;text-transform:uppercase;font-size:12px;font-family:var(--font3);font-weight:700;}
+.poster-more-list{display:none}
+.poster-more{display:grid;place-items:center;position:relative;line-height:40px;text-transform:uppercase;font-size:12px;font-family:var(--font3);font-weight:700;}
+.poster-more:hover .poster-more-list{display:none;position:absolute;background:var(--fond1);color:#fff;top:0;left:46px;padding:8px;border-radius:3px;opacity:0;max-height:204px;overflow:auto;line-height:30px;}
+  
+.pagination{font-size:0; display:flex; align-items:center;flex-direction: row-reverse;}
+.pagination>a{float:right;font-size:1rem;margin-top:5px}
+.pagination span:first-of-type {display: inline-flex;margin-right: 14px;}
+.pagination span {font-size: 0px;}
+.pagination span a:link,.pagination span a:visited,.pagination span a:active,.pagination span strong,.pagination span a.pag-img{background-color:var(--fond1);border:1px solid var(--white);color:var(--txt);border-radius:3px;display:block;font-size:1rem;font-weight:400;line-height:36px;margin:0 6px 0 0;height:36px;padding:0;text-align:center;text-decoration:none;width:36px;overflow:hidden}
+.row .pagination{display:inline-block;float:none;font-size:1.2rem;margin-top:0;padding:0 0 0 15px}
+.row .pagination span a:link,.row .pagination span a:visited,.row .pagination span a:active{background-color:#2c353b;color:#FFF;line-height:17px;margin:0 3px;padding:0 6px;text-align:center;text-decoration:none;width:auto}
+.pagination span a.pag-img img {height:12px;margin: 10px 0;}
+.pagination span.page-sep{display:none}
+form[name=go_page] {} form[name=go_page] table {width: fit-content;} form[name=go_page] tbody {display: flex; align-items: center;} form[name=go_page] input {height:20px;}
+
+.fa_like_list,.fa_dislike_list{border-radius:var(--rad4);background:var(--fond4);text-transform:uppercase;font-size:11px !important;padding:4px 8px;margin:0;}
+.fa_like_list{border-bottom:1px solid var(--co1)}
+.fa_dislike_list{border-bottom:1px solid var(--co2)}
+.fa_like_list a{color:var(--co1) !important;font-weight:700}
+.fa_dislike_list a{color:var(--co2) !important;font-weight:700}
+.fa_like_others {background: transparent;padding: 0;margin: 0!important;text-transform: uppercase; font-weight: 700;font-size: 11px;color:var(--co2);}
+.fa_like_tooltip {display:none;position: absolute;width: 150px;top: -15px;}
+/* .fa_like_others:focus .fa_like_tooltip, .fa_like_others:hover .fa_like_tooltip {display:flex;} */
+.fa_like_tooltip a:not(:last-of-type):after {content:',';padding-right:3px;}

@@ -3,7 +3,7 @@
 .fondcateh{backdrop-filter:var(--blur);overflow:hidden;background:var(--forum);border-radius:var(--rad4);padding:10px;margin:20px 0}
 .cadrecateh{width:100%;height:100%;padding:20px 20px 0;border:1px solid var(--white);border-radius:var(--rad4)}
 .gridcat1{position:relative;display:grid;grid-template: auto 40px 40px 1fr / 170px 1fr 120px;margin-bottom:20px;gap: 0 20px;}
-.gradient-cate {grid-row: 1 / 5;display: grid;grid-template-rows: subgrid;grid-template-columns:1fr;position: relative;}
+.gradient-cate {grid-row: 1 / 5;display: grid;grid-template-columns:1fr;position: relative;}
   
 .avacat1{position:absolute;width:100%;height:100%;border-radius:var(--rad4);border:1px solid var(--cadre);grid-row:1/5;overflow: hidden;}
 #avacat1{float:none!important;padding:0!important;position:relative;top:0;}

@@ -48,7 +48,7 @@
 .weavetop {display: flex; justify-content: space-between;padding:16px;}
 .wme, .wphotos, .wsong, .wfriends {text-align: justify; border-radius: var(--rad3);}
 .wfollow, .wfollowing {text-align: center; border-radius: var(--rad3);background: var(--fond4);}
-.weave .wicons i.cp {background: var(--fond4); border: 1px solid var(--borderw); border-radius: var(--rad); padding: 6px; margin: 2px;}
+.wicons i.cp {background: var(--fond4); border: 1px solid var(--borderw); border-radius: var(--rad); padding: 6px; margin: 2px;}
 .wfond {position:relative; overflow:hidden;height: 200px;width: 100%;}
 .wfond img {width: 100%; height: 100%; object-fit:cover; position:absolute; top:0; left:0; filter:grayscale(1);}
 .wfond:after {content: ' '; background: var(--gradient2); width:100%; height:100%; position: absolute; top:0; left:0; opacity: 0.5;}
